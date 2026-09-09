@@ -1,4 +1,4 @@
-// UI layer only. All question content lives in data/ — see data/questions.js for the bank.
+// UI layer only. All question content lives in data/questions-hard.js.
 const {questions:bank,exams,official,writing}=UATUK;
 const app=document.querySelector('#app');let state={};const read=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}},save=(k,v)=>localStorage.setItem(k,JSON.stringify(v)),history=()=>read('axiom-history',[]),mistakes=()=>read('axiom-mistakes',[]);
 function active(v){document.querySelectorAll('.nav').forEach(x=>x.classList.toggle('active',x.dataset.view===v))}
