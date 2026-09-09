@@ -2,6 +2,8 @@
 // Questions stay within the published UAT-UK subject scope but require multi-step reasoning.
 (function () {
   const UATUK = (window.UATUK = window.UATUK || {});
+  const foundation = UATUK.questions || [];
+  UATUK.foundationQuestions = foundation;
   const Q = (id, exam, module, topic, prompt, options, answer, explanation) =>
     ({ id, exam, module, topic, prompt, options, answer, explanation, difficulty: 'Stretch' });
   const bank = [];
