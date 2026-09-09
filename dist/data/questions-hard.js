@@ -2,6 +2,7 @@
 // Questions stay within the published UAT-UK subject scope but require multi-step reasoning.
 (function () {
   const UATUK = (window.UATUK = window.UATUK || {});
+  const foundation = UATUK.questions || [];
   const Q = (id, exam, module, topic, prompt, options, answer, explanation) =>
     ({ id, exam, module, topic, prompt, options, answer, explanation, difficulty: 'Stretch' });
   const bank = [];
@@ -236,5 +237,38 @@
     }
   }
 
-  UATUK.questions = bank;
+  // Repeated parameter generators share a family. The paper builder allows only
+  // one question from each family in a session.
+  const cycles={'ESAT|Biology':9,'TMUA|Paper 2':10,'TARA|Critical Thinking':11,'TARA|Problem Solving':4};
+  bank.forEach(x=>{const n=Number(x.id.split('-').pop()),cycle=cycles[`${x.exam}|${x.module}`]||5;x.family=`core-${x.exam}-${x.module}-${n%cycle}`});
+
+  // Diagram-led questions use inline SVG so they remain sharp at 200% zoom.
+  const fig=(label,body)=>`<span class="question-figure"><svg viewBox="0 0 420 220" role="img" aria-label="${label}" xmlns="http://www.w3.org/2000/svg">${body}</svg></span>`;
+  const visual=[
+    Q('vis-m1','ESAT','Mathematics 1','Geometry',`The circle has centre O. OM is perpendicular to chord AB, OM=4 and OA=5. What is AB?${fig('Circle with chord AB and perpendicular OM','<circle cx="210" cy="105" r="78" fill="none" stroke="currentColor" stroke-width="3"/><line x1="150" y1="155" x2="270" y2="155" stroke="currentColor" stroke-width="3"/><line x1="210" y1="105" x2="210" y2="155" stroke="#005eb8" stroke-width="3"/><text x="198" y="98">O</text><text x="137" y="176">A</text><text x="274" y="176">B</text><text x="214" y="176">M</text><text x="216" y="137">4</text><text x="174" y="126">5</text>')}`,['3','6','8','10'],1,'The perpendicular bisects the chord. AM=√(5²−4²)=3, hence AB=6.'),
+    Q('vis-m2','ESAT','Mathematics 2','Calculus',`At which labelled point is f′(x)=0 and f″(x)>0?${fig('Curve with points p q r s','<path d="M25 190H400M45 205V20" stroke="currentColor" stroke-width="2"/><path d="M50 150C100 25 145 25 185 105S260 205 305 120S360 45 398 70" fill="none" stroke="#005eb8" stroke-width="4"/><text x="105" y="208">p</text><text x="180" y="208">q</text><text x="270" y="208">r</text><text x="360" y="208">s</text>')}`,['p','q','r','s'],2,'Point r is a local minimum: zero gradient and positive curvature.'),
+    Q('vis-ph','ESAT','Physics','Electricity',`Each resistor is 6 Ω. What is the resistance between A and B?${fig('Six ohm resistor in series with two parallel six ohm resistors','<text x="12" y="115">A</text><path d="M30 110h35l12-18 22 36 22-36 22 36 12-18h35" fill="none" stroke="currentColor" stroke-width="3"/><path d="M190 110v-55h35l12-18 22 36 22-36 22 36 12-18h35v55M190 110h35l12-18 22 36 22-36 22 36 12-18h35" fill="none" stroke="currentColor" stroke-width="3"/><text x="92" y="80">6Ω</text><text x="257" y="28">6Ω</text><text x="257" y="150">6Ω</text><text x="385" y="115">B</text>')}`,['4 Ω','6 Ω','9 Ω','12 Ω'],2,'The parallel pair is 3 Ω; in series with 6 Ω this gives 9 Ω.'),
+    Q('vis-ch','ESAT','Chemistry','Energetics',`Which arrow is the forward activation energy?${fig('Reaction profile with arrows P and Q','<path d="M25 185H400" stroke="currentColor"/><path d="M45 155C120 155 145 38 220 35S305 130 375 118" fill="none" stroke="#005eb8" stroke-width="4"/><path d="M90 150V42" stroke="#d22730" stroke-width="3"/><path d="M150 150V38" stroke="#7a5af8" stroke-width="3"/><text x="68" y="95">P</text><text x="126" y="95">Q</text><text x="40" y="178">reactants</text><text x="320" y="145">products</text>')}`,['P','Q','Both','Neither'],1,'The forward activation energy is measured from reactants to the peak, labelled Q.'),
+    Q('vis-bi','ESAT','Biology','Enzymes',`Which conclusion is supported by the two curves?${fig('Enzyme rate curves reaching the same maximum','<path d="M35 185V25M35 185H400" stroke="currentColor" stroke-width="2"/><path d="M40 175C80 75 145 52 390 50" fill="none" stroke="#005eb8" stroke-width="4"/><path d="M40 180C105 142 180 80 390 52" fill="none" stroke="#d22730" stroke-width="4"/><text x="260" y="42">no inhibitor</text><text x="245" y="108">with inhibitor</text>')}`,['The inhibitor is competitive','The enzyme is destroyed','Vmax increases','Substrate has no effect'],0,'The same maximum rate is reached, but more substrate is required: the pattern of competitive inhibition.'),
+    Q('vis-t1','TMUA','Paper 1','Functions',`The red line is tangent to y=x² at x=2. What is the area of the triangle it forms with the axes?${fig('Parabola and tangent','<path d="M30 185H400M80 210V20" stroke="currentColor" stroke-width="2"/><path d="M82 180Q210 25 380 180" fill="none" stroke="#005eb8" stroke-width="4"/><line x1="80" y1="185" x2="300" y2="-35" stroke="#d22730" stroke-width="3"/><path d="M80 185h65L80 55Z" fill="#005eb8" opacity=".18"/><text x="140" y="207">1</text><text x="205" y="207">2</text>')}`,['2','4','6','8'],0,'The tangent is y=4x−4, with intercepts (1,0) and (0,−4). Area=½×1×4=2.'),
+    Q('vis-t2','TMUA','Paper 2','Logic',`Which expression is represented by the shaded region?${fig('Two sets with A outside B shaded','<circle cx="170" cy="110" r="72" fill="#005eb8" opacity=".5" stroke="#005eb8" stroke-width="3"/><circle cx="250" cy="110" r="72" fill="white" stroke="#d22730" stroke-width="3"/><text x="130" y="112">A</text><text x="282" y="112">B</text>')}`,['A∩Bᶜ','Aᶜ∩B','A∩B','(A∪B)ᶜ'],0,'Only the part in A but outside B is shaded: A∩Bᶜ.'),
+    Q('vis-ct','TARA','Critical Thinking','Interpreting evidence',`Programme A has the higher raw completion rate. Which feature most weakens the claim that A is more effective?${fig('Completion counts by programme and prior attainment','<path d="M35 190V25M35 190H400" stroke="currentColor" stroke-width="2"/><rect x="70" y="55" width="48" height="135" fill="#005eb8"/><rect x="128" y="112" width="48" height="78" fill="#9bc7ef"/><rect x="245" y="105" width="48" height="85" fill="#d22730"/><rect x="303" y="42" width="48" height="148" fill="#ef9a9f"/><text x="74" y="212">A high</text><text x="128" y="212">A low</text><text x="248" y="212">B high</text><text x="304" y="212">B low</text>')}`,['Different prior-attainment profiles','Both use percentages','Both have students','The programmes have names'],0,'The groups have different starting profiles, so their unadjusted completion rates are not comparable.'),
+    Q('vis-ps','TARA','Problem Solving','Spatial reasoning',`A robot starts at S facing north. It moves 2 squares, turns right, moves 3, turns right, then moves 1. Where does it finish?${fig('Square route grid','<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#98a2b3"/></pattern></defs><rect x="90" y="10" width="240" height="200" fill="url(#grid)" stroke="currentColor"/><text x="100" y="198">S↑</text><text x="300" y="198">A</text><text x="300" y="158">B</text><text x="300" y="118">C</text><text x="300" y="78">D</text>')}`,['A','B','C','D'],2,'The net movement is one square north and three east, which is C.')
+  ];
+  visual.forEach((x,i)=>{x.family=`visual-${x.exam}-${x.module}-${i}`;x.difficulty='Stretch';bank.push(x)});
+
+  // Each paired item combines two different structures. This expands the bank
+  // without producing number-swapped clones.
+  const composites=[],groups={};
+  foundation.forEach(x=>(groups[`${x.exam}|${x.module}`]||=[]).push(x));
+  Object.values(groups).forEach(old=>{
+    const hard=bank.filter(x=>x.exam===old[0].exam&&x.module===old[0].module&&!x.id.startsWith('vis-'));
+    old.forEach((left,i)=>{
+      const right=hard[(i*7+3)%hard.length],ca='ABCD'[left.answer],cb='ABCD'[right.answer],wa='ABCD'[(left.answer+1)%4],wb='ABCD'[(right.answer+2)%4];
+      const raw=[`I: ${ca}; II: ${cb}`,`I: ${wa}; II: ${cb}`,`I: ${ca}; II: ${wb}`,`I: ${wa}; II: ${wb}`],shift=(i+left.module.length)%4,opts=raw.map((_,j)=>raw[(j+shift)%4]);
+      const x=Q(`pair-${left.id}`,left.exam,left.module,`${left.topic} + ${right.topic}`,`Solve both independent problems.<br><b>I.</b> ${left.prompt}<br><b>II.</b> ${right.prompt}<br>Which pair gives the correct option letter for I and II?`,opts,opts.indexOf(raw[0]),`I is ${ca}: ${left.explanation} II is ${cb}: ${right.explanation}`);
+      x.family=`paired-${left.id}`;composites.push(x);
+    });
+  });
+  UATUK.questions = [...bank,...composites];
 })();
