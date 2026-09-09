@@ -2,7 +2,6 @@
 // Questions stay within the published UAT-UK subject scope but require multi-step reasoning.
 (function () {
   const UATUK = (window.UATUK = window.UATUK || {});
-  const foundation = UATUK.questions || [];
   const Q = (id, exam, module, topic, prompt, options, answer, explanation) =>
     ({ id, exam, module, topic, prompt, options, answer, explanation, difficulty: 'Stretch' });
   const bank = [];
@@ -257,18 +256,8 @@
   ];
   visual.forEach((x,i)=>{x.family=`visual-${x.exam}-${x.module}-${i}`;x.difficulty='Stretch';bank.push(x)});
 
-  // Each paired item combines two different structures. This expands the bank
-  // without producing number-swapped clones.
-  const composites=[],groups={};
-  foundation.forEach(x=>(groups[`${x.exam}|${x.module}`]||=[]).push(x));
-  Object.values(groups).forEach(old=>{
-    const hard=bank.filter(x=>x.exam===old[0].exam&&x.module===old[0].module&&!x.id.startsWith('vis-'));
-    old.forEach((left,i)=>{
-      const right=hard[(i*7+3)%hard.length],ca='ABCD'[left.answer],cb='ABCD'[right.answer],wa='ABCD'[(left.answer+1)%4],wb='ABCD'[(right.answer+2)%4];
-      const raw=[`I: ${ca}; II: ${cb}`,`I: ${wa}; II: ${cb}`,`I: ${ca}; II: ${wb}`,`I: ${wa}; II: ${wb}`],shift=(i+left.module.length)%4,opts=raw.map((_,j)=>raw[(j+shift)%4]);
-      const x=Q(`pair-${left.id}`,left.exam,left.module,`${left.topic} + ${right.topic}`,`Solve both independent problems.<br><b>I.</b> ${left.prompt}<br><b>II.</b> ${right.prompt}<br>Which pair gives the correct option letter for I and II?`,opts,opts.indexOf(raw[0]),`I is ${ca}: ${left.explanation} II is ${cb}: ${right.explanation}`);
-      x.family=`paired-${left.id}`;composites.push(x);
-    });
-  });
-  UATUK.questions = [...bank,...composites];
+  // A paper may contain linked statements or stages only when they belong to
+  // one mathematical argument or one shared source. Unrelated questions must
+  // never be joined merely to expand the bank.
+  UATUK.questions = bank;
 })();
