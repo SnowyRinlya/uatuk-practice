@@ -36,6 +36,17 @@
   UATUK.writing = [
     'Should universities give greater weight to potential than demonstrated attainment?',
     'Is it ever reasonable to limit individual choice for the benefit of society?',
-    'Does technological progress necessarily improve education?'
+    'Does technological progress necessarily improve education?',
+    'Should public policy be guided by expert judgement when most citizens disagree?',
+    'Is fairness better understood as equal treatment or equal opportunity?',
+    'Can competition improve a public service without undermining its purpose?',
+    'Should an institution be judged mainly by its outcomes rather than its intentions?',
+    'Does access to more information necessarily lead to better decisions?',
+    'When, if ever, is it reasonable to preserve an inefficient tradition?',
+    'Should individuals be responsible for harms they could reasonably have prevented?',
+    'Is uncertainty a good reason to delay action?',
+    'Can a decision be rational even when it produces a bad outcome?',
+    'Should scarce educational resources be directed towards those most likely to benefit?',
+    'Does measuring performance inevitably change the activity being measured?'
   ];
 })();
