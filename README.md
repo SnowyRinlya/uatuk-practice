@@ -15,14 +15,17 @@ Independent English-language practice platform for ESAT, TMUA and TARA.
 ## Project structure
 
 ```
-dist/
-  index.html          page shell; loads data/ scripts, then app.js
-  app.js              UI only — rendering, navigation, scoring, local storage
-  styles.css          layout
-  uatuk.css           theme
-  data/
-    exams.js          exam config, official UAT-UK links, writing prompts
-    questions.js      the whole question bank
+index.html             page shell; loads data scripts, then app.js
+app.js                 UI only — rendering, navigation, scoring, local storage
+styles.css             layout
+uatuk.css              theme
+data/
+  exams.js             exam config, official links and writing prompts
+  questions*.js        original question sources and canonical assembly
+question-engine/
+  schema.js            question normalisation and validation
+  profiles.js          target difficulty profiles
+  exam-generator.js    balanced random paper generation
 ```
 
 Questions are plain `<script>` files, not ES modules, so the site keeps working
@@ -35,17 +38,17 @@ Add a `Q(id, exam, module, topic, prompt, options, answer, explanation)` entry t
 `answer` is the zero-based index of the correct option. Every question is
 hand-written; there are no generators.
 
-The bank holds 219 questions, matching official paper lengths: 27 for each of the
-five ESAT modules, 20 per TMUA paper and 22 per TARA multiple-choice module.
-Correct answers are spread evenly across the four option positions in every
-module, so no position is a better guess than another. Numeric options stay in
-ascending or descending order wherever that is compatible with the balance;
-where it is not, the option list is left as close to sorted as the balance
-allows.
+The canonical bank currently validates 310 questions. Each question receives a
+continuous author difficulty estimate and uncertainty value. The exam generator
+selects distinct question families while keeping the paper's mean difficulty
+and difficulty distribution stable between sessions.
 
 ## Run locally
 
-Open `dist/index.html` in a browser.
+Open `index.html` in a browser.
+
+For a production build, run `npm run build`. Generated files are written to
+`build/` and are not committed.
 
 ## Live site
 
