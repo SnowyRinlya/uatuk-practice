@@ -1,0 +1,860 @@
+[
+  {
+    "id": "xm2-0",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "For f(x)=x³−2x²+3x, the tangent at x=1 meets the y-axis at B. What is the gradient of the line through B parallel to the tangent?",
+    "options": [
+      "2",
+      "6",
+      "-1",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Any parallel line has the tangent gradient. f′(x)=3x²−4x+3, giving 2.",
+    "difficulty": {
+      "authorEstimate": 0.842,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 2-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm2-1",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Sequences",
+    "prompt": "A geometric sequence has first term 4 and common ratio 3. The sum of its first 6 terms is 1456. By how much does the sum increase when one further term is included?",
+    "options": [
+      "1456",
+      "2912",
+      "8748",
+      "2916"
+    ],
+    "answer": 3,
+    "explanation": "The increase is exactly term 7: 4×3^6=2916.",
+    "difficulty": {
+      "authorEstimate": 0.838,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 2-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm2-2",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Trigonometry",
+    "prompt": "An acute angle θ satisfies tan θ=4. What is sin θ?",
+    "options": [
+      "16/√17",
+      "1/17",
+      "4/√17",
+      "1/√17"
+    ],
+    "answer": 2,
+    "explanation": "Use a right triangle with opposite 4, adjacent 1 and hypotenuse √17; hence sinθ=4/√17.",
+    "difficulty": {
+      "authorEstimate": 0.834,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 2-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm2-3",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Vectors",
+    "prompt": "Vectors a=(2,6) and b=(1,−2). Which expression equals cos of the angle from a to b?",
+    "options": [
+      "14/√200",
+      "-10/√200",
+      "10/√200",
+      "-10/200"
+    ],
+    "answer": 1,
+    "explanation": "a·b=-10; |a|²=40 and |b|²=5, so cosθ=-10/√200.",
+    "difficulty": {
+      "authorEstimate": 0.83,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 2-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm2-4",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "The curve y=2−2/(4)x² lies above the x-axis between x=−2 and x=2. What is the exact enclosed area?",
+    "options": [
+      "16/3",
+      "8",
+      "8/3",
+      "16"
+    ],
+    "answer": 0,
+    "explanation": "Integrating symmetrically gives 2[2x−2x³/(3×4)]₀^2=16/3.",
+    "difficulty": {
+      "authorEstimate": 0.7899999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 2-4",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "vis-m2",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "At which labelled point is f′(x)=0 and f″(x)>0?<span class=\"question-figure\"><svg viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Curve with points p q r s\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25 190H400M45 205V20\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M50 150C100 25 145 25 185 105S260 205 305 120S360 45 398 70\" fill=\"none\" stroke=\"#005eb8\" stroke-width=\"4\"/><text x=\"105\" y=\"208\">p</text><text x=\"180\" y=\"208\">q</text><text x=\"270\" y=\"208\">r</text><text x=\"360\" y=\"208\">s</text></svg></span>",
+    "options": [
+      "p",
+      "q",
+      "r",
+      "s"
+    ],
+    "answer": 2,
+    "explanation": "Point r is a local minimum: zero gradient and positive curvature.",
+    "difficulty": {
+      "authorEstimate": 0.831,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "visual-ESAT-Mathematics 2-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2a",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "What is the minimum value of x + 4/x for x>0?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "By AM–GM, x+4/x ≥ 2√4=4, with equality when x=2.",
+    "family": "em2a",
+    "difficulty": {
+      "authorEstimate": 0.5,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2b",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Sequences",
+    "prompt": "A geometric sequence has first term 3 and common ratio 2. What is the sum of its first 6 terms?",
+    "options": [
+      "93",
+      "96",
+      "189",
+      "192"
+    ],
+    "answer": 2,
+    "explanation": "S₆=3(2⁶−1)/(2−1)=189.",
+    "family": "em2b",
+    "difficulty": {
+      "authorEstimate": 0.49600000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2c",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Trigonometry",
+    "prompt": "For 0°≤θ≤360°, how many solutions does 2sin²θ−sinθ−1=0 have?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "(2sinθ+1)(sinθ−1)=0. sinθ=1 gives one solution; sinθ=−1/2 gives two.",
+    "family": "em2c",
+    "difficulty": {
+      "authorEstimate": 0.49200000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2d",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Vectors",
+    "prompt": "Vectors a and b have magnitudes 3 and 4, and a·b=6. What is the angle between them?",
+    "options": [
+      "30°",
+      "45°",
+      "90°",
+      "60°"
+    ],
+    "answer": 3,
+    "explanation": "6=3×4×cosθ, hence cosθ=1/2 and θ=60°.",
+    "family": "em2d",
+    "difficulty": {
+      "authorEstimate": 0.5890000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2e",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "What is the gradient of y=3x⁴−2x at x=1?",
+    "options": [
+      "6",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": 1,
+    "explanation": "dy/dx=12x³−2, which is 12−2=10 at x=1.",
+    "family": "em2e",
+    "difficulty": {
+      "authorEstimate": 0.5850000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2f",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "What is the value of ∫₀² (3x²+1) dx?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "The integral is x³+x, which is (8+2)−0=10.",
+    "family": "em2f",
+    "difficulty": {
+      "authorEstimate": 0.5810000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2g",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "What is the equation of the tangent to y=x² at the point (3,9)?",
+    "options": [
+      "y = 6x − 9",
+      "y = 6x + 9",
+      "y = 3x",
+      "y = 9x − 18"
+    ],
+    "answer": 0,
+    "explanation": "dy/dx=2x=6 at x=3, so y−9=6(x−3), giving y=6x−9.",
+    "family": "em2g",
+    "difficulty": {
+      "authorEstimate": 0.5770000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2h",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "For f(x)=x³−6x²+9x, at which x-values is f′(x)=0?",
+    "options": [
+      "1 and 3",
+      "0 and 3",
+      "−1 and 3",
+      "1 and −3"
+    ],
+    "answer": 0,
+    "explanation": "f′(x)=3x²−12x+9=3(x−1)(x−3), which vanishes at x=1 and x=3.",
+    "family": "em2h",
+    "difficulty": {
+      "authorEstimate": 0.5730000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2i",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "The curve y=x²+2x has a minimum at which value of x?",
+    "options": [
+      "−2",
+      "−1",
+      "0",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "dy/dx=2x+2=0 gives x=−1.",
+    "family": "em2i",
+    "difficulty": {
+      "authorEstimate": 0.5690000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2j",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "What is the value of ∫₁² (1/x²) dx?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "The integral is −1/x, which is (−1/2)−(−1)=1/2.",
+    "family": "em2j",
+    "difficulty": {
+      "authorEstimate": 0.5650000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2k",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Calculus",
+    "prompt": "What is the gradient of the normal to y=x³ at x=1?",
+    "options": [
+      "−3",
+      "−1/3",
+      "1/3",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "The tangent gradient is 3x²=3, so the normal gradient is −1/3.",
+    "family": "em2k",
+    "difficulty": {
+      "authorEstimate": 0.561,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2l",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Sequences",
+    "prompt": "A geometric series has first term 8 and common ratio 1/4. What is its sum to infinity?",
+    "options": [
+      "10",
+      "16",
+      "64/3",
+      "32/3"
+    ],
+    "answer": 3,
+    "explanation": "S∞=a/(1−r)=8/(3/4)=32/3.",
+    "family": "em2l",
+    "difficulty": {
+      "authorEstimate": 0.557,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2m",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Sequences",
+    "prompt": "The sum of the first n terms of a sequence is n²+3n. What is the fifth term?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "The fifth term is S₅−S₄=40−28=12.",
+    "family": "em2m",
+    "difficulty": {
+      "authorEstimate": 0.553,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2n",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Sequences",
+    "prompt": "A geometric sequence has second term 6 and fifth term 48. What is its common ratio?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "The ratio satisfies r³=48/6=8, so r=2.",
+    "family": "em2n",
+    "difficulty": {
+      "authorEstimate": 0.549,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2o",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Trigonometry",
+    "prompt": "For 0°≤θ<360°, what are the solutions of sin θ = 1/2?",
+    "options": [
+      "30° and 150°",
+      "60° and 120°",
+      "30° and 330°",
+      "150° and 210°"
+    ],
+    "answer": 0,
+    "explanation": "Sine is positive in the first and second quadrants, giving 30° and 150°.",
+    "family": "em2o",
+    "difficulty": {
+      "authorEstimate": 0.545,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2p",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Trigonometry",
+    "prompt": "What is the minimum value of 3 + 2cos θ?",
+    "options": [
+      "−1",
+      "2",
+      "5",
+      "1"
+    ],
+    "answer": 3,
+    "explanation": "The minimum of cos θ is −1, so the expression is at least 3−2=1.",
+    "family": "em2p",
+    "difficulty": {
+      "authorEstimate": 0.541,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2q",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Trigonometry",
+    "prompt": "Given cos θ = 0.6 for an acute angle θ, what is tan θ?",
+    "options": [
+      "3/4",
+      "4/5",
+      "4/3",
+      "5/3"
+    ],
+    "answer": 2,
+    "explanation": "cos θ=3/5 so sin θ=4/5, giving tan θ=4/3.",
+    "family": "em2q",
+    "difficulty": {
+      "authorEstimate": 0.537,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2r",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Vectors",
+    "prompt": "Given a=(2,−1) and b=(3,4), what is a·b?",
+    "options": [
+      "−2",
+      "2",
+      "10",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "a·b=2×3+(−1)×4=6−4=2.",
+    "family": "em2r",
+    "difficulty": {
+      "authorEstimate": 0.533,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2s",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Vectors",
+    "prompt": "What is the magnitude of the vector (6, 8)?",
+    "options": [
+      "7",
+      "10",
+      "14",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "√(6²+8²)=√100=10.",
+    "family": "em2s",
+    "difficulty": {
+      "authorEstimate": 0.529,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2t",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Vectors",
+    "prompt": "The vectors (1,2) and (k,6) are parallel. What is k?",
+    "options": [
+      "2",
+      "6",
+      "12",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "Parallel vectors have zero cross product: 1×6−2k=0, so k=3.",
+    "family": "em2t",
+    "difficulty": {
+      "authorEstimate": 0.525,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2u",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Algebra",
+    "prompt": "How many solutions does |x−2| = 5 have, and what are they?",
+    "options": [
+      "x = 7 only",
+      "x = −3 only",
+      "x = 7 or x = −3",
+      "x = 3 or x = −7"
+    ],
+    "answer": 2,
+    "explanation": "Either x−2=5 or x−2=−5, giving x=7 or x=−3.",
+    "family": "em2u",
+    "difficulty": {
+      "authorEstimate": 0.521,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2v",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Algebra",
+    "prompt": "If log₂ x = 5, what is x?",
+    "options": [
+      "10",
+      "16",
+      "25",
+      "32"
+    ],
+    "answer": 3,
+    "explanation": "The statement means 2⁵=x, so x=32.",
+    "family": "em2v",
+    "difficulty": {
+      "authorEstimate": 0.517,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2w",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Algebra",
+    "prompt": "The expression x²+6x+11 can be written as (x+p)²+q. What is q?",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "(x+3)²+2, so q=2.",
+    "family": "em2w",
+    "difficulty": {
+      "authorEstimate": 0.513,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2x",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Algebra",
+    "prompt": "Solve 2^(x+2) = 4^(x−1).",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "Writing 4 as 2² gives x+2=2x−2, so x=4.",
+    "family": "em2x",
+    "difficulty": {
+      "authorEstimate": 0.509,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2y",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Functions",
+    "prompt": "What is the inverse of f(x) = (x+3)/2?",
+    "options": [
+      "2x − 3",
+      "2x + 3",
+      "(x − 3)/2",
+      "(3 − x)/2"
+    ],
+    "answer": 0,
+    "explanation": "Rearranging y=(x+3)/2 gives x=2y−3, so f⁻¹(x)=2x−3.",
+    "family": "em2y",
+    "difficulty": {
+      "authorEstimate": 0.505,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2z",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Functions",
+    "prompt": "Given f(x)=x² and g(x)=x+1, what is f(g(x)) − g(f(x))?",
+    "options": [
+      "2x",
+      "2x + 1",
+      "x² + 1",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "(x+1)²−(x²+1)=x²+2x+1−x²−1=2x.",
+    "family": "em2z",
+    "difficulty": {
+      "authorEstimate": 0.501,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em2aa",
+    "exam": "ESAT",
+    "module": "Mathematics 2",
+    "topic": "Functions",
+    "prompt": "What is the domain of f(x) = 1/(x−3)?",
+    "options": [
+      "All real x",
+      "All real x except 0",
+      "All real x except 3",
+      "All real x except −3"
+    ],
+    "answer": 2,
+    "explanation": "The expression is undefined when the denominator is zero, that is at x=3.",
+    "family": "em2aa",
+    "difficulty": {
+      "authorEstimate": 0.534,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  }
+]

@@ -1,0 +1,860 @@
+[
+  {
+    "id": "xch-0",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Stoichiometry",
+    "prompt": "A 20 g impure solid is 80% by mass compound X (Mᵣ=40). Each mole of X forms 2 mol of gas. What amount of gas is formed at complete conversion?",
+    "options": [
+      "0.8 mol",
+      "0.5 mol",
+      "0.4 mol",
+      "1 mol"
+    ],
+    "answer": 0,
+    "explanation": "Pure X mass=16 g, so n(X)=16/40; multiplying by 2 gives 0.8 mol.",
+    "difficulty": {
+      "authorEstimate": 0.82,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Chemistry-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xch-1",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Energetics",
+    "prompt": "For a reaction, 370 kJ mol⁻¹ is required to break reactant bonds and 440 kJ mol⁻¹ is released when product bonds form. What is ΔH?",
+    "options": [
+      "70 kJ mol⁻¹",
+      "810 kJ mol⁻¹",
+      "-370 kJ mol⁻¹",
+      "-70 kJ mol⁻¹"
+    ],
+    "answer": 3,
+    "explanation": "ΔH=energy in−energy out=370−440=-70 kJ mol⁻¹.",
+    "difficulty": {
+      "authorEstimate": 0.816,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Chemistry-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xch-2",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Solutions",
+    "prompt": "30 cm³ of 3 mol dm⁻³ solution is diluted to 120 cm³. How many moles of solute are present in a 10 cm³ aliquot of the diluted solution?",
+    "options": [
+      "0.09 mol",
+      "0.36 mol",
+      "0.0075 mol",
+      "0.03 mol"
+    ],
+    "answer": 2,
+    "explanation": "Diluted concentration=3/4 mol dm⁻³; amount in 10 cm³ is (3/4)×10/1000=0.0075 mol.",
+    "difficulty": {
+      "authorEstimate": 0.8119999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Chemistry-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xch-3",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Equilibrium",
+    "prompt": "For the exothermic equilibrium 2A(g) ⇌ B(g), which change increases the equilibrium yield of B while also increasing the initial forward rate?",
+    "options": [
+      "Lower temperature and lower pressure",
+      "Higher temperature and higher pressure",
+      "Lower temperature and higher pressure",
+      "Higher temperature and lower pressure"
+    ],
+    "answer": 2,
+    "explanation": "Lower temperature favours the exothermic direction; higher pressure favours the side with fewer gas molecules and also raises collision frequency.",
+    "difficulty": {
+      "authorEstimate": 0.8079999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Chemistry-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xch-4",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Atomic structure",
+    "prompt": "An ion X²⁺ has 14 electrons and mass number 28. How many neutrons are in its nucleus?",
+    "options": [
+      "12",
+      "16",
+      "14",
+      "28"
+    ],
+    "answer": 0,
+    "explanation": "X²⁺ has two fewer electrons than protons, so Z=16. Neutrons=28−16=12.",
+    "difficulty": {
+      "authorEstimate": 0.836,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Chemistry-4",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "vis-ch",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Energetics",
+    "prompt": "Which arrow is the forward activation energy?<span class=\"question-figure\"><svg viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Reaction profile with arrows P and Q\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25 185H400\" stroke=\"currentColor\"/><path d=\"M45 155C120 155 145 38 220 35S305 130 375 118\" fill=\"none\" stroke=\"#005eb8\" stroke-width=\"4\"/><path d=\"M90 150V42\" stroke=\"#d22730\" stroke-width=\"3\"/><path d=\"M150 150V38\" stroke=\"#7a5af8\" stroke-width=\"3\"/><text x=\"68\" y=\"95\">P</text><text x=\"126\" y=\"95\">Q</text><text x=\"40\" y=\"178\">reactants</text><text x=\"320\" y=\"145\">products</text></svg></span>",
+    "options": [
+      "P",
+      "Q",
+      "Both",
+      "Neither"
+    ],
+    "answer": 1,
+    "explanation": "The forward activation energy is measured from reactants to the peak, labelled Q.",
+    "difficulty": {
+      "authorEstimate": 0.87,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "visual-ESAT-Chemistry-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echa",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Amount of substance",
+    "prompt": "How many moles are present in 11 g of carbon dioxide, CO₂? (Mr=44)",
+    "options": [
+      "0.20 mol",
+      "0.25 mol",
+      "2.0 mol",
+      "4.0 mol"
+    ],
+    "answer": 1,
+    "explanation": "n=m/Mr=11/44=0.25 mol.",
+    "family": "echa",
+    "difficulty": {
+      "authorEstimate": 0.545,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echb",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Atomic structure",
+    "prompt": "Which particle determines the isotope of an element?",
+    "options": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Ion"
+    ],
+    "answer": 0,
+    "explanation": "Isotopes have the same protons but different numbers of neutrons.",
+    "family": "echb",
+    "difficulty": {
+      "authorEstimate": 0.541,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echc",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Energetics",
+    "prompt": "Which change is always exothermic?",
+    "options": [
+      "Breaking a covalent bond",
+      "Melting a solid",
+      "Forming a chemical bond",
+      "Boiling a liquid"
+    ],
+    "answer": 2,
+    "explanation": "Bond formation releases energy.",
+    "family": "echc",
+    "difficulty": {
+      "authorEstimate": 0.537,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echd",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Rates",
+    "prompt": "Which change increases collision frequency without changing activation energy?",
+    "options": [
+      "Adding a catalyst",
+      "Changing the pathway",
+      "Lowering temperature",
+      "Increasing concentration"
+    ],
+    "answer": 3,
+    "explanation": "Higher concentration puts more reacting particles in a given volume.",
+    "family": "echd",
+    "difficulty": {
+      "authorEstimate": 0.5650000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "eche",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Amount of substance",
+    "prompt": "How many oxygen atoms are present in 0.5 mol of O₂ molecules?",
+    "options": [
+      "3.01 × 10²³",
+      "6.02 × 10²³",
+      "1.20 × 10²⁴",
+      "6.02 × 10²⁴"
+    ],
+    "answer": 1,
+    "explanation": "There are 0.5×6.02×10²³ molecules, each containing two atoms, giving 6.02×10²³ atoms.",
+    "family": "eche",
+    "difficulty": {
+      "authorEstimate": 0.561,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echf",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Amount of substance",
+    "prompt": "What is the mass of 0.2 mol of sodium hydroxide, NaOH? (Mr=40)",
+    "options": [
+      "8 g",
+      "2 g",
+      "20 g",
+      "40 g"
+    ],
+    "answer": 0,
+    "explanation": "m=n×Mr=0.2×40=8 g.",
+    "family": "echf",
+    "difficulty": {
+      "authorEstimate": 0.557,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echg",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Amount of substance",
+    "prompt": "What volume is occupied by 2 mol of a gas at room temperature, taking the molar volume as 24 dm³ mol⁻¹?",
+    "options": [
+      "12 dm³",
+      "24 dm³",
+      "48 dm³",
+      "96 dm³"
+    ],
+    "answer": 2,
+    "explanation": "V=n×24=2×24=48 dm³.",
+    "family": "echg",
+    "difficulty": {
+      "authorEstimate": 0.553,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echh",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Amount of substance",
+    "prompt": "0.5 mol of solute is dissolved in 250 cm³ of solution. What is the concentration?",
+    "options": [
+      "0.125 mol dm⁻³",
+      "0.5 mol dm⁻³",
+      "4 mol dm⁻³",
+      "2 mol dm⁻³"
+    ],
+    "answer": 3,
+    "explanation": "250 cm³ is 0.25 dm³, so c=0.5/0.25=2 mol dm⁻³.",
+    "family": "echh",
+    "difficulty": {
+      "authorEstimate": 0.5810000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echi",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Atomic structure",
+    "prompt": "How many neutrons are there in an atom of ³⁵Cl (atomic number 17)?",
+    "options": [
+      "17",
+      "18",
+      "35",
+      "52"
+    ],
+    "answer": 1,
+    "explanation": "Neutrons = mass number − atomic number = 35−17 = 18.",
+    "family": "echi",
+    "difficulty": {
+      "authorEstimate": 0.5770000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echj",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Atomic structure",
+    "prompt": "What is the electron configuration of sodium (atomic number 11)?",
+    "options": [
+      "1s²2s²2p⁶3s¹",
+      "1s²2s²2p⁶3s²",
+      "1s²2s²2p⁵3s²",
+      "1s²2s²2p⁶"
+    ],
+    "answer": 0,
+    "explanation": "Sodium has 11 electrons, filling 1s, 2s, 2p and then one electron in 3s.",
+    "family": "echj",
+    "difficulty": {
+      "authorEstimate": 0.5730000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echk",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Atomic structure",
+    "prompt": "Which ion has the same electron configuration as argon?",
+    "options": [
+      "Na⁺",
+      "Mg²⁺",
+      "Cl⁻",
+      "Al³⁺"
+    ],
+    "answer": 2,
+    "explanation": "Argon has 18 electrons, and a chloride ion has 17+1=18.",
+    "family": "echk",
+    "difficulty": {
+      "authorEstimate": 0.5690000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echl",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Energetics",
+    "prompt": "What is the sign of ΔH for an exothermic reaction?",
+    "options": [
+      "Positive",
+      "Zero",
+      "It has no sign",
+      "Negative"
+    ],
+    "answer": 3,
+    "explanation": "Exothermic reactions release energy, so ΔH is negative.",
+    "family": "echl",
+    "difficulty": {
+      "authorEstimate": 0.49600000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echm",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Energetics",
+    "prompt": "Is bond breaking endothermic or exothermic?",
+    "options": [
+      "Exothermic",
+      "Endothermic",
+      "Neither",
+      "It depends on the bond"
+    ],
+    "answer": 1,
+    "explanation": "Energy must be supplied to break a bond, so bond breaking is endothermic.",
+    "family": "echm",
+    "difficulty": {
+      "authorEstimate": 0.49200000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echn",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Energetics",
+    "prompt": "For 2H₂ + O₂ → 2H₂O, ΔH = −572 kJ mol⁻¹. What is ΔH for H₂ + ½O₂ → H₂O?",
+    "options": [
+      "−286 kJ mol⁻¹",
+      "−572 kJ mol⁻¹",
+      "+286 kJ mol⁻¹",
+      "−1144 kJ mol⁻¹"
+    ],
+    "answer": 0,
+    "explanation": "Halving the equation halves the enthalpy change, giving −286 kJ mol⁻¹.",
+    "family": "echn",
+    "difficulty": {
+      "authorEstimate": 0.5890000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echo",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Rates",
+    "prompt": "Why does raising the temperature usually increase the rate of a reaction?",
+    "options": [
+      "Particles collide more often only",
+      "The activation energy falls",
+      "A greater proportion of collisions has energy at least equal to the activation energy",
+      "The concentration increases"
+    ],
+    "answer": 2,
+    "explanation": "Higher temperature increases collision frequency, but the dominant effect is the much larger fraction of collisions exceeding the activation energy.",
+    "family": "echo",
+    "difficulty": {
+      "authorEstimate": 0.5850000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echp",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Rates",
+    "prompt": "How does a catalyst increase the rate of a reaction?",
+    "options": [
+      "It increases the activation energy",
+      "It increases the temperature",
+      "It increases the concentration",
+      "It provides an alternative route with lower activation energy"
+    ],
+    "answer": 3,
+    "explanation": "A catalyst offers a different pathway with a lower activation energy.",
+    "family": "echp",
+    "difficulty": {
+      "authorEstimate": 0.512,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echq",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Rates",
+    "prompt": "Which change increases the rate of a solid reacting with an acid without changing the activation energy?",
+    "options": [
+      "Adding a catalyst",
+      "Increasing the surface area of the solid",
+      "Raising the temperature",
+      "Using a different reaction pathway"
+    ],
+    "answer": 1,
+    "explanation": "More exposed surface means more frequent collisions, leaving the activation energy unchanged.",
+    "family": "echq",
+    "difficulty": {
+      "authorEstimate": 0.508,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echr",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Bonding",
+    "prompt": "By what type of bonding are sodium and chloride ions held together in sodium chloride?",
+    "options": [
+      "Ionic bonds",
+      "Covalent bonds",
+      "Metallic bonds",
+      "Hydrogen bonds"
+    ],
+    "answer": 0,
+    "explanation": "Oppositely charged ions are held by electrostatic attraction, which is ionic bonding.",
+    "family": "echr",
+    "difficulty": {
+      "authorEstimate": 0.504,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echs",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Bonding",
+    "prompt": "Which molecule has a permanent dipole moment?",
+    "options": [
+      "CH₄",
+      "CO₂",
+      "HCl",
+      "H₂"
+    ],
+    "answer": 2,
+    "explanation": "The chlorine atom is much more electronegative than hydrogen, so HCl has a permanent dipole; the others are symmetric or non-polar.",
+    "family": "echs",
+    "difficulty": {
+      "authorEstimate": 0.5,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echt",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Bonding",
+    "prompt": "How many covalent bonds are there in one molecule of methane, CH₄?",
+    "options": [
+      "1",
+      "2",
+      "8",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "Carbon forms one bond to each of four hydrogen atoms.",
+    "family": "echt",
+    "difficulty": {
+      "authorEstimate": 0.528,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echu",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Equilibria",
+    "prompt": "In a gaseous equilibrium, increasing the pressure shifts the position of equilibrium towards which side?",
+    "options": [
+      "The side with more gas molecules",
+      "The side with fewer gas molecules",
+      "Neither side",
+      "Always the products"
+    ],
+    "answer": 1,
+    "explanation": "The system responds to raised pressure by moving to the side with fewer gas molecules.",
+    "family": "echu",
+    "difficulty": {
+      "authorEstimate": 0.524,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echv",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Equilibria",
+    "prompt": "For N₂ + 3H₂ ⇌ 2NH₃, what effect does increasing the pressure have?",
+    "options": [
+      "It favours the forward reaction",
+      "It favours the reverse reaction",
+      "It has no effect",
+      "It stops the reaction"
+    ],
+    "answer": 0,
+    "explanation": "Four moles of gas become two, so higher pressure favours the forward reaction.",
+    "family": "echv",
+    "difficulty": {
+      "authorEstimate": 0.52,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echw",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Organic",
+    "prompt": "What is the general formula of the alkanes?",
+    "options": [
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ₊₂",
+      "CₙHₙ"
+    ],
+    "answer": 2,
+    "explanation": "Alkanes are saturated hydrocarbons with the general formula CₙH₂ₙ₊₂.",
+    "family": "echw",
+    "difficulty": {
+      "authorEstimate": 0.516,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echx",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Organic",
+    "prompt": "Which functional group is characteristic of an alcohol?",
+    "options": [
+      "−COOH",
+      "−CHO",
+      "−NH₂",
+      "−OH"
+    ],
+    "answer": 3,
+    "explanation": "Alcohols contain the hydroxyl group −OH.",
+    "family": "echx",
+    "difficulty": {
+      "authorEstimate": 0.544,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echy",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Redox",
+    "prompt": "What is oxidation in terms of electrons?",
+    "options": [
+      "Gain of electrons",
+      "Loss of electrons",
+      "Gain of protons",
+      "Loss of neutrons"
+    ],
+    "answer": 1,
+    "explanation": "Oxidation is the loss of electrons; reduction is the gain of electrons.",
+    "family": "echy",
+    "difficulty": {
+      "authorEstimate": 0.54,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echz",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Redox",
+    "prompt": "In the reaction 2Mg + O₂ → 2MgO, what happens to the magnesium?",
+    "options": [
+      "It is oxidised",
+      "It is reduced",
+      "It is unchanged",
+      "It acts as a catalyst"
+    ],
+    "answer": 0,
+    "explanation": "Magnesium loses electrons to oxygen, so it is oxidised.",
+    "family": "echz",
+    "difficulty": {
+      "authorEstimate": 0.536,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "echaa",
+    "exam": "ESAT",
+    "module": "Chemistry",
+    "topic": "Acids",
+    "prompt": "What is the pH of a solution in which [H⁺] = 1 × 10⁻³ mol dm⁻³?",
+    "options": [
+      "1",
+      "7",
+      "3",
+      "11"
+    ],
+    "answer": 2,
+    "explanation": "pH = −log₁₀(10⁻³) = 3.",
+    "family": "echaa",
+    "difficulty": {
+      "authorEstimate": 0.516,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  }
+]

@@ -1,0 +1,964 @@
+[
+  {
+    "id": "xbi-0",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Genetics",
+    "prompt": "A test cross of an organism with a dominant phenotype produces 121 dominant and 119 recessive offspring. Which conclusion is best supported?",
+    "options": [
+      "The tested parent is heterozygous",
+      "The tested parent is homozygous dominant",
+      "The allele is mitochondrial",
+      "The trait is polygenic"
+    ],
+    "answer": 0,
+    "explanation": "A near 1:1 ratio is expected from Aa×aa, supporting a heterozygous tested parent.",
+    "difficulty": {
+      "authorEstimate": 0.837,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-1",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Enzymes",
+    "prompt": "An inhibitor lowers reaction rate at low substrate concentration, but the same maximum rate is reached at very high substrate concentration. What is the best explanation?",
+    "options": [
+      "Non-competitive inhibition",
+      "Irreversible denaturation",
+      "Substrate exhaustion",
+      "Competitive inhibition"
+    ],
+    "answer": 3,
+    "explanation": "A competitive inhibitor can be outcompeted, so Vmax is unchanged although more substrate is needed.",
+    "difficulty": {
+      "authorEstimate": 0.833,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-2",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Transport",
+    "prompt": "A plant cell has water potential −350 kPa and is placed in a solution at −700 kPa. What is the initial net movement of water?",
+    "options": [
+      "Into the cell by osmosis",
+      "No net movement",
+      "Out of the cell by osmosis",
+      "Into the cell by active transport"
+    ],
+    "answer": 2,
+    "explanation": "Water moves from higher water potential (−350 kPa) to lower water potential (−700 kPa).",
+    "difficulty": {
+      "authorEstimate": 0.845,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-3",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Ecology",
+    "prompt": "After predators are removed, prey numbers rise and then fall below their original level although predators remain absent. Which explanation is most plausible?",
+    "options": [
+      "Energy transfer became 100% efficient",
+      "The prey overshot the carrying capacity and depleted resources",
+      "Predators were the prey’s food",
+      "Mutation immediately reduced reproduction"
+    ],
+    "answer": 1,
+    "explanation": "Release from predation can cause an overshoot followed by a resource-driven crash.",
+    "difficulty": {
+      "authorEstimate": 0.841,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-4",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Respiration",
+    "prompt": "During intense exercise, oxygen uptake plateaus while ATP demand continues to rise. Which change is most likely?",
+    "options": [
+      "A larger fraction of ATP is supplied anaerobically",
+      "Oxidative phosphorylation accelerates without oxygen",
+      "Glucose ceases to be used",
+      "Lactate production stops"
+    ],
+    "answer": 0,
+    "explanation": "Anaerobic pathways supply more ATP when aerobic supply cannot meet increasing demand.",
+    "difficulty": {
+      "authorEstimate": 0.821,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-4",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-5",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Immunity",
+    "prompt": "A vaccinated person produces antibodies much faster after later exposure to the pathogen. Which cells most directly explain this response?",
+    "options": [
+      "Red blood cells",
+      "Platelets",
+      "Epithelial cells",
+      "Memory lymphocytes"
+    ],
+    "answer": 3,
+    "explanation": "Memory lymphocytes formed during the primary response rapidly divide and differentiate after re-exposure.",
+    "difficulty": {
+      "authorEstimate": 0.817,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-5",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-6",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Photosynthesis",
+    "prompt": "Light intensity is increased but the rate of photosynthesis does not change until carbon dioxide concentration is raised. What was limiting initially?",
+    "options": [
+      "Chlorophyll colour",
+      "Oxygen concentration",
+      "Carbon dioxide concentration",
+      "Light intensity"
+    ],
+    "answer": 2,
+    "explanation": "The response to added carbon dioxide shows that CO₂, not light, was the limiting factor.",
+    "difficulty": {
+      "authorEstimate": 0.829,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-6",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-7",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Homeostasis",
+    "prompt": "After a carbohydrate-rich meal, blood glucose falls more slowly in person X than in a healthy control. Which single defect best explains this?",
+    "options": [
+      "Increased glycogen synthesis",
+      "Reduced insulin secretion or response",
+      "Excess glucagon suppression",
+      "Faster glucose uptake"
+    ],
+    "answer": 1,
+    "explanation": "Reduced insulin action delays removal of glucose from blood and its storage as glycogen.",
+    "difficulty": {
+      "authorEstimate": 0.825,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-7",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xbi-8",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Evolution",
+    "prompt": "A bacterial population becomes mostly antibiotic-resistant after treatment. Which explanation is correct?",
+    "options": [
+      "Resistant variants were selected and left more descendants",
+      "The antibiotic caused every bacterium to mutate adaptively",
+      "Individual bacteria learned resistance",
+      "Resistance arose because the population needed it"
+    ],
+    "answer": 0,
+    "explanation": "Selection increases the frequency of pre-existing or newly arisen heritable resistant variants.",
+    "difficulty": {
+      "authorEstimate": 0.8049999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Biology-8",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "vis-bi",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Enzymes",
+    "prompt": "Which conclusion is supported by the two curves?<span class=\"question-figure\"><svg viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Enzyme rate curves reaching the same maximum\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M35 185V25M35 185H400\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M40 175C80 75 145 52 390 50\" fill=\"none\" stroke=\"#005eb8\" stroke-width=\"4\"/><path d=\"M40 180C105 142 180 80 390 52\" fill=\"none\" stroke=\"#d22730\" stroke-width=\"4\"/><text x=\"260\" y=\"42\">no inhibitor</text><text x=\"245\" y=\"108\">with inhibitor</text></svg></span>",
+    "options": [
+      "The inhibitor is competitive",
+      "The enzyme is destroyed",
+      "Vmax increases",
+      "Substrate has no effect"
+    ],
+    "answer": 0,
+    "explanation": "The same maximum rate is reached, but more substrate is required: the pattern of competitive inhibition.",
+    "difficulty": {
+      "authorEstimate": 0.852,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "visual-ESAT-Biology-4",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebia",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Cells",
+    "prompt": "Which organelle is the main site of aerobic respiration?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "answer": 2,
+    "explanation": "Most stages of aerobic respiration occur in mitochondria.",
+    "family": "ebia",
+    "difficulty": {
+      "authorEstimate": 0.527,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebib",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Genetics",
+    "prompt": "Two heterozygous parents for a recessive condition have a child. What is the probability that the child is affected?",
+    "options": [
+      "0",
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "answer": 1,
+    "explanation": "Aa×Aa gives one affected aa genotype out of four.",
+    "family": "ebib",
+    "difficulty": {
+      "authorEstimate": 0.539,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebic",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Transport",
+    "prompt": "Which process moves water across a partially permeable membrane from higher to lower water potential?",
+    "options": [
+      "Active transport",
+      "Diffusion",
+      "Osmosis",
+      "Translocation"
+    ],
+    "answer": 2,
+    "explanation": "This is the definition of osmosis.",
+    "family": "ebic",
+    "difficulty": {
+      "authorEstimate": 0.535,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebid",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Enzymes",
+    "prompt": "Why does a very high temperature often reduce enzyme activity?",
+    "options": [
+      "Substrate concentration falls",
+      "The active site changes shape",
+      "More products collide",
+      "The pH becomes neutral"
+    ],
+    "answer": 1,
+    "explanation": "High temperature can alter the enzyme’s shape and its active site.",
+    "family": "ebid",
+    "difficulty": {
+      "authorEstimate": 0.515,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebie",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Genetics",
+    "prompt": "In a test cross, an organism showing a dominant phenotype produces 48 dominant and 52 recessive offspring. Which parental genotype is best supported?",
+    "options": [
+      "Homozygous dominant",
+      "Homozygous recessive",
+      "Heterozygous",
+      "Codominant"
+    ],
+    "answer": 2,
+    "explanation": "A near 1:1 ratio is expected from Aa×aa, so the tested parent is heterozygous.",
+    "family": "ebie",
+    "difficulty": {
+      "authorEstimate": 0.511,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebif",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Enzymes",
+    "prompt": "Two enzyme samples have equal activity at 25°C. After ten minutes at 70°C, sample X has no activity when cooled, while sample Y recovers. What best explains the difference?",
+    "options": [
+      "Y contained no enzyme",
+      "X was irreversibly denatured; Y was reversibly inhibited",
+      "X had more substrate",
+      "Both enzymes were destroyed"
+    ],
+    "answer": 1,
+    "explanation": "Failure to recover after cooling supports irreversible denaturation in X; recovery in Y indicates a reversible effect.",
+    "family": "ebif",
+    "difficulty": {
+      "authorEstimate": 0.523,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebig",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Transport",
+    "prompt": "A plant cell is placed in a solution and its mass falls by 12%. Which conclusion is best supported?",
+    "options": [
+      "Active transport moved water out",
+      "The cell wall dissolved",
+      "The external solution was pure water",
+      "The external solution had lower water potential than the cell"
+    ],
+    "answer": 3,
+    "explanation": "Net water loss by osmosis means water potential was lower outside the cell.",
+    "family": "ebig",
+    "difficulty": {
+      "authorEstimate": 0.519,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebih",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Ecology",
+    "prompt": "A pesticide removes most predators from a food web. Prey numbers rise briefly, then fall below their original level. Which explanation is most plausible?",
+    "options": [
+      "Predators produced the prey’s food",
+      "Increased prey density depleted its food supply",
+      "The pesticide increased photosynthesis",
+      "Competition disappeared"
+    ],
+    "answer": 1,
+    "explanation": "A prey boom can overexploit food, causing a delayed population crash.",
+    "family": "ebih",
+    "difficulty": {
+      "authorEstimate": 0.49900000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebii",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Respiration",
+    "prompt": "Muscle cells consume oxygen at the same rate but produce more lactate during intense exercise. What has most likely changed?",
+    "options": [
+      "Mitochondria have stopped permanently",
+      "Glucose is no longer used",
+      "Oxygen has become a waste product",
+      "ATP demand exceeds the rate supported by aerobic respiration"
+    ],
+    "answer": 3,
+    "explanation": "Additional anaerobic respiration supplies ATP when aerobic supply cannot meet demand.",
+    "family": "ebii",
+    "difficulty": {
+      "authorEstimate": 0.49500000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebij",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Cells",
+    "prompt": "Which organelle modifies and packages proteins for secretion from the cell?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "answer": 3,
+    "explanation": "The Golgi apparatus modifies proteins and packages them into vesicles for secretion.",
+    "family": "ebij",
+    "difficulty": {
+      "authorEstimate": 0.507,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebik",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Cells",
+    "prompt": "Which structure is found in plant cells but not in animal cells?",
+    "options": [
+      "Chloroplast",
+      "Mitochondrion",
+      "Ribosome",
+      "Cell membrane"
+    ],
+    "answer": 0,
+    "explanation": "Chloroplasts carry out photosynthesis and occur in plant cells, not animal cells.",
+    "family": "ebik",
+    "difficulty": {
+      "authorEstimate": 0.503,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebil",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Cells",
+    "prompt": "What is the main function of a ribosome?",
+    "options": [
+      "Lipid synthesis",
+      "DNA replication",
+      "Protein synthesis",
+      "ATP production"
+    ],
+    "answer": 2,
+    "explanation": "Ribosomes assemble amino acids into proteins.",
+    "family": "ebil",
+    "difficulty": {
+      "authorEstimate": 0.5840000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebim",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Genetics",
+    "prompt": "A cross between an Aa individual and an aa individual produces which phenotypic ratio?",
+    "options": [
+      "1:1",
+      "3:1",
+      "1:2:1",
+      "9:3:3:1"
+    ],
+    "answer": 0,
+    "explanation": "Half the offspring inherit A and half inherit a, giving a 1:1 ratio of the two phenotypes.",
+    "family": "ebim",
+    "difficulty": {
+      "authorEstimate": 0.5800000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebin",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Genetics",
+    "prompt": "In DNA, adenine pairs with which base?",
+    "options": [
+      "Thymine",
+      "Guanine",
+      "Cytosine",
+      "Uracil"
+    ],
+    "answer": 0,
+    "explanation": "Adenine pairs with thymine by two hydrogen bonds.",
+    "family": "ebin",
+    "difficulty": {
+      "authorEstimate": 0.49100000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebio",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Genetics",
+    "prompt": "How many chromosomes are there in a normal human gamete?",
+    "options": [
+      "22",
+      "23",
+      "46",
+      "92"
+    ],
+    "answer": 1,
+    "explanation": "A gamete is haploid and carries 23 chromosomes, half the diploid number.",
+    "family": "ebio",
+    "difficulty": {
+      "authorEstimate": 0.5880000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebip",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Transport",
+    "prompt": "Which type of blood vessel contains valves to prevent backflow?",
+    "options": [
+      "Artery",
+      "Capillary",
+      "Aorta",
+      "Vein"
+    ],
+    "answer": 3,
+    "explanation": "Veins carry blood at low pressure and contain valves to keep it flowing towards the heart.",
+    "family": "ebip",
+    "difficulty": {
+      "authorEstimate": 0.5680000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebiq",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Transport",
+    "prompt": "Which blood component is mainly responsible for transporting oxygen?",
+    "options": [
+      "Red blood cells",
+      "Plasma",
+      "White blood cells",
+      "Platelets"
+    ],
+    "answer": 0,
+    "explanation": "Haemoglobin in red blood cells binds oxygen for transport.",
+    "family": "ebiq",
+    "difficulty": {
+      "authorEstimate": 0.5640000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebir",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Enzymes",
+    "prompt": "What is the effect of a competitive inhibitor on an enzyme-catalysed reaction?",
+    "options": [
+      "It permanently denatures the enzyme",
+      "It lowers the activation energy",
+      "Its effect can be reduced by increasing the substrate concentration",
+      "It increases the rate at high substrate concentration"
+    ],
+    "answer": 2,
+    "explanation": "A competitive inhibitor binds the active site, so more substrate outcompetes it.",
+    "family": "ebir",
+    "difficulty": {
+      "authorEstimate": 0.5760000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebis",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Enzymes",
+    "prompt": "Which statement about enzymes is correct?",
+    "options": [
+      "They are consumed by the reaction",
+      "They are only active at pH 7",
+      "They are lipids",
+      "They are biological catalysts that lower activation energy"
+    ],
+    "answer": 3,
+    "explanation": "Enzymes are not used up and lower the activation energy of the reaction they catalyse.",
+    "family": "ebis",
+    "difficulty": {
+      "authorEstimate": 0.5720000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebit",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Ecology",
+    "prompt": "Approximately what proportion of energy is transferred from one trophic level to the next?",
+    "options": [
+      "About 1%",
+      "About 10%",
+      "About 50%",
+      "About 90%"
+    ],
+    "answer": 1,
+    "explanation": "Roughly 10% of the energy at one trophic level becomes biomass at the next.",
+    "family": "ebit",
+    "difficulty": {
+      "authorEstimate": 0.552,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebiu",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Ecology",
+    "prompt": "Which process removes carbon dioxide from the atmosphere?",
+    "options": [
+      "Respiration",
+      "Combustion",
+      "Photosynthesis",
+      "Decomposition"
+    ],
+    "answer": 2,
+    "explanation": "Photosynthesis fixes carbon dioxide into organic molecules.",
+    "family": "ebiu",
+    "difficulty": {
+      "authorEstimate": 0.548,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebiv",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Respiration",
+    "prompt": "What does anaerobic respiration produce in human muscle cells?",
+    "options": [
+      "Ethanol and carbon dioxide",
+      "Pyruvate only",
+      "Lactate",
+      "Glucose"
+    ],
+    "answer": 2,
+    "explanation": "In muscles, pyruvate is reduced to lactate when oxygen is limiting.",
+    "family": "ebiv",
+    "difficulty": {
+      "authorEstimate": 0.56,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebiw",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Respiration",
+    "prompt": "Where in a cell does glycolysis take place?",
+    "options": [
+      "Mitochondrial matrix",
+      "Cytoplasm",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "answer": 1,
+    "explanation": "Glycolysis occurs in the cytoplasm and does not require a mitochondrion.",
+    "family": "ebiw",
+    "difficulty": {
+      "authorEstimate": 0.556,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebix",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Photosynthesis",
+    "prompt": "Which pigment is mainly responsible for absorbing light energy in photosynthesis?",
+    "options": [
+      "Chlorophyll",
+      "Haemoglobin",
+      "Insulin",
+      "Collagen"
+    ],
+    "answer": 0,
+    "explanation": "Chlorophyll in the chloroplasts absorbs the light energy used in photosynthesis.",
+    "family": "ebix",
+    "difficulty": {
+      "authorEstimate": 0.536,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebiy",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Homeostasis",
+    "prompt": "Which organ monitors and regulates blood glucose concentration?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Spleen",
+      "Pancreas"
+    ],
+    "answer": 3,
+    "explanation": "The pancreas secretes insulin and glucagon to control blood glucose.",
+    "family": "ebiy",
+    "difficulty": {
+      "authorEstimate": 0.532,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebiz",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Immunity",
+    "prompt": "Which cells produce antibodies?",
+    "options": [
+      "B lymphocytes",
+      "Red blood cells",
+      "Platelets",
+      "Neurons"
+    ],
+    "answer": 0,
+    "explanation": "B lymphocytes differentiate into plasma cells that secrete antibodies.",
+    "family": "ebiz",
+    "difficulty": {
+      "authorEstimate": 0.544,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ebiaa",
+    "exam": "ESAT",
+    "module": "Biology",
+    "topic": "Evolution",
+    "prompt": "Natural selection acts directly on which of the following?",
+    "options": [
+      "Variation within a population",
+      "The needs of the species",
+      "Individual choice",
+      "Acquired characteristics"
+    ],
+    "answer": 0,
+    "explanation": "Selection acts on existing heritable variation among individuals in a population.",
+    "family": "ebiaa",
+    "difficulty": {
+      "authorEstimate": 0.5,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  }
+]

@@ -21,11 +21,15 @@ styles.css             layout
 uatuk.css              theme
 data/
   exams.js             exam config, official links and writing prompts
-  questions*.js        original question sources and canonical assembly
+question-bank/modules/
+  *.json               reviewable question records grouped by module
 question-engine/
   schema.js            question normalisation and validation
   profiles.js          target difficulty profiles
   exam-generator.js    balanced random paper generation
+db/schema.ts            Drizzle schema for aggregate statistics
+drizzle/                immutable D1 schema migrations
+worker/runtime.js       static delivery and statistics API
 ```
 
 Questions are plain `<script>` files, not ES modules, so the site keeps working
@@ -43,12 +47,18 @@ continuous author difficulty estimate and uncertainty value. The exam generator
 selects distinct question families while keeping the paper's mean difficulty
 and difficulty distribution stable between sessions.
 
+Question content stays in JSON so every wording, answer and explanation change
+is visible in Git history. Anonymous aggregate attempts are stored in D1. Once a
+question has enough responses, its calibrated difficulty supplements the author
+estimate used by the generator. No account or identifying profile is stored.
+
 ## Run locally
 
 Open `index.html` in a browser.
 
-For a production build, run `npm run build`. Generated files are written to
-`build/` and are not committed.
+Run `npm install`, then `npm run build && npm run validate`. The generated Worker
+is written to `dist/` and is not committed. When the database schema changes,
+run `npm run db:generate` and commit the new immutable migration.
 
 ## Live site
 

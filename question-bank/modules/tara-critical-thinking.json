@@ -1,0 +1,886 @@
+[
+  {
+    "id": "xct-0",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Assumptions",
+    "prompt": "A city reports that commuters using a new rail line make fewer car journeys than other residents. It concludes that extending the line will reduce congestion citywide. Which assumption is required?",
+    "options": [
+      "Every resident lives near a station",
+      "Rail journeys are always cheaper than car journeys",
+      "Congestion occurs only at commuting times",
+      "A substantial number of future passengers would otherwise travel by car"
+    ],
+    "answer": 3,
+    "explanation": "Without displacement of car journeys, more rail use need not reduce road congestion.",
+    "difficulty": {
+      "authorEstimate": 0.851,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-1",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "Hospitals introducing an electronic reminder system recorded fewer missed appointments. Which fact most weakens the claim that the reminders caused the improvement?",
+    "options": [
+      "Staff preferred the new system",
+      "Those hospitals also began charging for missed appointments",
+      "The reminders were sent by text message",
+      "Most patients owned mobile phones"
+    ],
+    "answer": 1,
+    "explanation": "A simultaneous financial penalty is a strong alternative cause.",
+    "difficulty": {
+      "authorEstimate": 0.847,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-2",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Flaws",
+    "prompt": "A survey finds graduates who studied philosophy report high job satisfaction; therefore studying philosophy makes graduates happier at work. What is the main flaw?",
+    "options": [
+      "Job satisfaction cannot be measured",
+      "All philosophy graduates have identical careers",
+      "The survey contains too many graduates",
+      "Self-selection and career differences may explain the association"
+    ],
+    "answer": 3,
+    "explanation": "The groups may differ before study or enter different careers, so causation is not established.",
+    "difficulty": {
+      "authorEstimate": 0.843,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-3",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Conclusions",
+    "prompt": "Every proposal approved by committee X was reviewed by a lawyer. Some lawyer-reviewed proposals were rejected. Which conclusion follows?",
+    "options": [
+      "Committee X approved every legal proposal",
+      "Approval by X implies legal review",
+      "Legal review implies approval by X",
+      "No rejected proposal was reviewed"
+    ],
+    "answer": 1,
+    "explanation": "Only the first statement directly follows from the universal premise.",
+    "difficulty": {
+      "authorEstimate": 0.839,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-4",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Strengthening arguments",
+    "prompt": "A school claims that later start times improved attainment because grades rose after the change. Which finding most strengthens the causal claim?",
+    "options": [
+      "Students said they liked sleeping later",
+      "Teachers also preferred the change",
+      "The school published the results",
+      "Comparable schools with unchanged start times showed no similar rise"
+    ],
+    "answer": 3,
+    "explanation": "A comparison group without the intervention helps exclude a general trend.",
+    "difficulty": {
+      "authorEstimate": 0.835,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-4",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-5",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Principles",
+    "prompt": "A policy is justified only if it prevents serious harm and no less restrictive alternative works. Which fact would be most important before applying the policy?",
+    "options": [
+      "Whether similar policies have memorable names",
+      "Whether an effective less restrictive measure exists",
+      "Whether the policy is popular",
+      "Whether it is easy to explain"
+    ],
+    "answer": 1,
+    "explanation": "The stated principle explicitly requires the absence of an effective less restrictive alternative.",
+    "difficulty": {
+      "authorEstimate": 0.831,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-5",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-6",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Assumptions",
+    "prompt": "An online course has a higher completion rate than a classroom course, so moving all teaching online will increase completion. Which assumption is necessary?",
+    "options": [
+      "Online teaching costs less",
+      "Every student owns two computers",
+      "Classroom teachers dislike technology",
+      "Differences in who selected each course do not explain the rate gap"
+    ],
+    "answer": 3,
+    "explanation": "If the groups self-selected differently, the observed comparison need not predict the effect of moving everyone online.",
+    "difficulty": {
+      "authorEstimate": 0.827,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-6",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-7",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "A company’s output rose after employees moved to a four-day week. Which evidence most weakens the claim that fewer days caused the rise?",
+    "options": [
+      "The company sells several products",
+      "New automated equipment began operating in the same week",
+      "Most employees supported the change",
+      "Output was measured monthly"
+    ],
+    "answer": 1,
+    "explanation": "The new equipment could independently explain the productivity increase.",
+    "difficulty": {
+      "authorEstimate": 0.823,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-7",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-8",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Flaws",
+    "prompt": "A columnist argues that because no study has proved a food additive dangerous, it must be completely safe. What is the flaw?",
+    "options": [
+      "The conclusion is too cautious",
+      "Studies can never investigate safety",
+      "All additives are dangerous",
+      "Absence of proof of harm is treated as proof of safety"
+    ],
+    "answer": 3,
+    "explanation": "Not having established harm does not establish complete safety.",
+    "difficulty": {
+      "authorEstimate": 0.819,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-8",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-9",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Conclusions",
+    "prompt": "No efficient process is wasteful. Some automated processes are wasteful. What follows?",
+    "options": [
+      "Some efficient processes are automated",
+      "Some automated processes are not efficient",
+      "No automated process is efficient",
+      "All non-efficient processes are automated"
+    ],
+    "answer": 1,
+    "explanation": "The wasteful automated processes cannot be efficient, though other automated processes might be.",
+    "difficulty": {
+      "authorEstimate": 0.815,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-9",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xct-10",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Strengthening arguments",
+    "prompt": "A town says protected cycle lanes reduced cyclist injuries. Which evidence best strengthens the claim?",
+    "options": [
+      "Cycling became more popular nationally",
+      "The lanes are brightly coloured",
+      "Residents remember the construction",
+      "Injury rates fell on treated roads but not on similar untreated roads"
+    ],
+    "answer": 3,
+    "explanation": "A matched untreated comparison makes alternative time trends less plausible.",
+    "difficulty": {
+      "authorEstimate": 0.861,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Critical Thinking-10",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "vis-ct",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Interpreting evidence",
+    "prompt": "Programme A has the higher raw completion rate. Which feature most weakens the claim that A is more effective?<span class=\"question-figure\"><svg viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Completion counts by programme and prior attainment\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M35 190V25M35 190H400\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"70\" y=\"55\" width=\"48\" height=\"135\" fill=\"#005eb8\"/><rect x=\"128\" y=\"112\" width=\"48\" height=\"78\" fill=\"#9bc7ef\"/><rect x=\"245\" y=\"105\" width=\"48\" height=\"85\" fill=\"#d22730\"/><rect x=\"303\" y=\"42\" width=\"48\" height=\"148\" fill=\"#ef9a9f\"/><text x=\"74\" y=\"212\">A high</text><text x=\"128\" y=\"212\">A low</text><text x=\"248\" y=\"212\">B high</text><text x=\"304\" y=\"212\">B low</text></svg></span>",
+    "options": [
+      "Different prior-attainment profiles",
+      "Both use percentages",
+      "Both have students",
+      "The programmes have names"
+    ],
+    "answer": 0,
+    "explanation": "The groups have different starting profiles, so their unadjusted completion rates are not comparable.",
+    "difficulty": {
+      "authorEstimate": 0.7889999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "visual-TARA-Critical Thinking-7",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rcta",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "Students who walk to school have higher average grades. Which most weakens the claim that walking causes higher grades?",
+    "options": [
+      "Walking improves fitness",
+      "Students living nearby may have different access to resources",
+      "Some students dislike walking",
+      "The school promotes sustainable travel"
+    ],
+    "answer": 1,
+    "explanation": "It supplies a plausible confounding variable related to both travel method and attainment.",
+    "family": "rcta",
+    "difficulty": {
+      "authorEstimate": 0.49400000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctb",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Flaws",
+    "prompt": "Library loans rose after opening hours were extended, so longer hours necessarily increase reading. What is the main flaw?",
+    "options": [
+      "The sample is too large",
+      "The conclusion is too cautious",
+      "It does not define a library",
+      "It treats correlation as proof of causation"
+    ],
+    "answer": 3,
+    "explanation": "Other changes could explain the rise, and borrowing is not identical to reading.",
+    "family": "rctb",
+    "difficulty": {
+      "authorEstimate": 0.5830000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctc",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Assumptions",
+    "prompt": "“The city should add cycle lanes because this will reduce traffic.” Which assumption is required?",
+    "options": [
+      "Every resident owns a bicycle",
+      "Cycle lanes are free",
+      "Some current car journeys would switch to cycling",
+      "Traffic is caused only by commuters"
+    ],
+    "answer": 2,
+    "explanation": "Traffic falls only if some journeys that would be made by car switch mode.",
+    "family": "rctc",
+    "difficulty": {
+      "authorEstimate": 0.5870000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctd",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Conclusions",
+    "prompt": "All debate club members enjoy public speaking. Mira does not enjoy public speaking. What follows?",
+    "options": [
+      "Mira is not a club member",
+      "Mira dislikes debating",
+      "No member knows Mira",
+      "Mira will never join"
+    ],
+    "answer": 0,
+    "explanation": "By contraposition, Mira is not currently a member.",
+    "family": "rctd",
+    "difficulty": {
+      "authorEstimate": 0.506,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rcte",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "A university finds that students attending optional tutorials obtain higher marks and concludes the tutorials are effective. Which consideration most seriously weakens the conclusion?",
+    "options": [
+      "The tutorials were taught by experienced staff",
+      "Students who choose tutorials may already be more motivated than those who do not",
+      "Attendance was recorded electronically",
+      "Tutorials covered material that examiners consider important"
+    ],
+    "answer": 1,
+    "explanation": "It offers a prior difference between the groups that could explain the mark gap without the tutorials helping.",
+    "family": "rcte",
+    "difficulty": {
+      "authorEstimate": 0.51,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctf",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "A council argues that because most surveyed residents support a new road, building it is in the public interest. Which fact most weakens the argument?",
+    "options": [
+      "The road would reduce journey times for most drivers",
+      "The survey was conducted over several weeks",
+      "A majority of councillors supported the proposal",
+      "The survey was sent only to households expected to benefit directly from the road"
+    ],
+    "answer": 3,
+    "explanation": "A sample drawn only from beneficiaries cannot represent the wider public interest.",
+    "family": "rctf",
+    "difficulty": {
+      "authorEstimate": 0.49800000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctg",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "An employer claims a four-day week raised productivity because output per employee increased after its introduction. Which fact is most relevant against the claim?",
+    "options": [
+      "Employees reported preferring the four-day week",
+      "The firm’s revenue also increased",
+      "The firm installed substantially faster production equipment at the same time",
+      "Output per employee is measured over a full year"
+    ],
+    "answer": 2,
+    "explanation": "It supplies an alternative cause that could account for the whole rise in output.",
+    "family": "rctg",
+    "difficulty": {
+      "authorEstimate": 0.502,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rcth",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Assumptions",
+    "prompt": "A report argues that banning cars from the centre reduced pollution because measurements fell the following month. Which assumption is required?",
+    "options": [
+      "Seasonal weather changes did not account for the measured reduction",
+      "The ban was enforced by traffic cameras",
+      "Residents were consulted before the ban",
+      "Pollution is measured at several sites"
+    ],
+    "answer": 0,
+    "explanation": "Without this, the fall could be due to weather rather than the ban.",
+    "family": "rcth",
+    "difficulty": {
+      "authorEstimate": 0.522,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rcti",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Flaws",
+    "prompt": "A school says replacing textbooks with tablets improved learning because students completed homework faster. What is the central flaw?",
+    "options": [
+      "Tablets are more expensive than textbooks",
+      "Some students preferred printed textbooks",
+      "Faster completion does not by itself show greater learning",
+      "The tablets were provided by a technology company"
+    ],
+    "answer": 2,
+    "explanation": "The evidence measures speed, but the conclusion is about the quality of learning.",
+    "family": "rcti",
+    "difficulty": {
+      "authorEstimate": 0.526,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctj",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "A study finds that people who drink coffee live longer, and concludes that coffee extends life. Which fact most weakens this conclusion?",
+    "options": [
+      "Coffee contains antioxidants",
+      "Coffee drinkers tend to be wealthier, and wealthier people live longer",
+      "Some people dislike the taste of coffee",
+      "The study was published recently"
+    ],
+    "answer": 1,
+    "explanation": "It identifies a third factor linked to both coffee drinking and longevity, offering an alternative explanation.",
+    "family": "rctj",
+    "difficulty": {
+      "authorEstimate": 0.514,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctk",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Strengthening arguments",
+    "prompt": "A school bans mobile phones and grades improve, so the ban raised attainment. Which finding most strengthens this claim?",
+    "options": [
+      "A comparable school without a ban saw no change in grades",
+      "Students complained about the ban",
+      "Phones are popular among teenagers",
+      "The ban was announced in assembly"
+    ],
+    "answer": 0,
+    "explanation": "A control school that did not change supports the ban, rather than other factors, as the cause.",
+    "family": "rctk",
+    "difficulty": {
+      "authorEstimate": 0.518,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctl",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Assumptions",
+    "prompt": "“The council should ban cars from the High Street because it will reduce accidents.” Which assumption is required by this argument?",
+    "options": [
+      "All residents own cars",
+      "The High Street is the busiest road in the city",
+      "Cyclists also use the High Street",
+      "At least some accidents on the High Street are caused by cars"
+    ],
+    "answer": 3,
+    "explanation": "The ban can only cut accidents if cars contribute to them in the first place.",
+    "family": "rctl",
+    "difficulty": {
+      "authorEstimate": 0.538,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctm",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Flaws",
+    "prompt": "“Everyone I know likes the new policy, so everyone likes it.” What is the main flaw?",
+    "options": [
+      "The conclusion is too modest",
+      "The sample is unrepresentative of the whole population",
+      "The evidence is irrelevant to the conclusion",
+      "It assumes people are honest"
+    ],
+    "answer": 1,
+    "explanation": "A person’s acquaintances are not a representative sample of everyone.",
+    "family": "rctm",
+    "difficulty": {
+      "authorEstimate": 0.542,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctn",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Conclusions",
+    "prompt": "All poets read widely. Sam does not read widely. What follows?",
+    "options": [
+      "Sam is not a poet",
+      "Sam is a poet",
+      "Sam dislikes poetry",
+      "Some poets do not read widely"
+    ],
+    "answer": 0,
+    "explanation": "By contraposition, anyone who does not read widely is not a poet.",
+    "family": "rctn",
+    "difficulty": {
+      "authorEstimate": 0.53,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rcto",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "Crime fell after more police were hired, so hiring police reduces crime. Which fact most weakens this argument?",
+    "options": [
+      "Police numbers rose by 10%",
+      "The police chief supported the policy",
+      "Crime fell nationally over the same period",
+      "Some crimes are never reported"
+    ],
+    "answer": 2,
+    "explanation": "If crime fell everywhere, the local fall may have nothing to do with the extra police.",
+    "family": "rcto",
+    "difficulty": {
+      "authorEstimate": 0.534,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctp",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Assumptions",
+    "prompt": "“Vitamin C prevents colds, because people who take it get fewer colds.” Which assumption is required?",
+    "options": [
+      "Vitamin C is inexpensive",
+      "Colds are caused by viruses",
+      "Vitamin C occurs naturally in fruit",
+      "People who take vitamin C do not differ systematically in other ways from those who do not"
+    ],
+    "answer": 3,
+    "explanation": "Without this, the difference could reflect other differences between the two groups.",
+    "family": "rctp",
+    "difficulty": {
+      "authorEstimate": 0.554,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctq",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Flaws",
+    "prompt": "“This diet must work because a famous actor endorses it.” What is the main flaw?",
+    "options": [
+      "The evidence is statistical",
+      "It relies on a person with no relevant expertise",
+      "The conclusion is too weak",
+      "The diet is expensive"
+    ],
+    "answer": 1,
+    "explanation": "An actor’s fame is not evidence about nutrition.",
+    "family": "rctq",
+    "difficulty": {
+      "authorEstimate": 0.558,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctr",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Strengthening arguments",
+    "prompt": "A trial reports that a drug improves symptoms. Which feature most strengthens the conclusion that the drug caused the improvement?",
+    "options": [
+      "The trial was randomised and double-blind",
+      "Participants knew which treatment they received",
+      "The drug is expensive to produce",
+      "The researchers hope to publish the results"
+    ],
+    "answer": 0,
+    "explanation": "Randomisation and blinding remove the main sources of bias.",
+    "family": "rctr",
+    "difficulty": {
+      "authorEstimate": 0.546,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rcts",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Conclusions",
+    "prompt": "Some A are B, and all B are C. What follows?",
+    "options": [
+      "All A are C",
+      "No A is C",
+      "Some A are C",
+      "All C are A"
+    ],
+    "answer": 2,
+    "explanation": "The As that are B must also be C, so at least some A are C.",
+    "family": "rcts",
+    "difficulty": {
+      "authorEstimate": 0.55,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctt",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Weakening arguments",
+    "prompt": "Sales rose after an advertising campaign, so the campaign worked. Which fact most weakens this conclusion?",
+    "options": [
+      "The campaign cost a great deal",
+      "The product had been redesigned two years earlier",
+      "Sales are reported monthly",
+      "The main competitor closed during the campaign"
+    ],
+    "answer": 3,
+    "explanation": "A rival’s closure could explain the rise without the advertising having any effect.",
+    "family": "rctt",
+    "difficulty": {
+      "authorEstimate": 0.5700000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctu",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Flaws",
+    "prompt": "“This policy is the right one because it is the correct policy to adopt.” What is the main flaw?",
+    "options": [
+      "It appeals to authority",
+      "It assumes what it sets out to prove",
+      "It uses an unrepresentative sample",
+      "It confuses correlation with causation"
+    ],
+    "answer": 1,
+    "explanation": "The conclusion is simply restated as the reason, so the argument is circular.",
+    "family": "rctu",
+    "difficulty": {
+      "authorEstimate": 0.5740000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rctv",
+    "exam": "TARA",
+    "module": "Critical Thinking",
+    "topic": "Assumptions",
+    "prompt": "“If we do not act now, it will be too late.” Which assumption is required?",
+    "options": [
+      "Delay makes the problem harder or impossible to solve",
+      "The problem is urgent",
+      "Everyone agrees there is a problem",
+      "Action will be expensive"
+    ],
+    "answer": 0,
+    "explanation": "The claim only works if waiting genuinely removes the chance to act later.",
+    "family": "rctv",
+    "difficulty": {
+      "authorEstimate": 0.562,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  }
+]

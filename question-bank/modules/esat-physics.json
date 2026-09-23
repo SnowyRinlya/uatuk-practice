@@ -1,0 +1,860 @@
+[
+  {
+    "id": "xph-0",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "A 2 kg trolley moving at 3 m s⁻¹ descends a frictionless vertical height of 2 m. Take g=10 m s⁻². What is its increase in kinetic energy?",
+    "options": [
+      "40 J",
+      "49 J",
+      "20 J",
+      "Cannot be determined from the information given"
+    ],
+    "answer": 0,
+    "explanation": "Energy conservation gives ΔEk=mgh=2×10×2=40 J; the initial speed is irrelevant to the increase.",
+    "difficulty": {
+      "authorEstimate": 0.8049999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Physics-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xph-1",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Electricity",
+    "prompt": "Two 4 Ω resistors in parallel are connected in series with a 8 Ω resistor across 18 V. What power is dissipated in the series resistor?",
+    "options": [
+      "32.4 W",
+      "12.96 W",
+      "40.5 W",
+      "25.92 W"
+    ],
+    "answer": 3,
+    "explanation": "The parallel pair is 2 Ω, total resistance 10 Ω and current 1.8 A. Thus P=I²R=25.92 W.",
+    "difficulty": {
+      "authorEstimate": 0.8089999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Physics-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xph-2",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Waves",
+    "prompt": "A string of length 1.8 m fixed at both ends supports its 5rd harmonic. Wave speed is 150 m s⁻¹. What is the wavelength?",
+    "options": [
+      "750 m",
+      "Cannot be determined from the information given",
+      "0.72 m",
+      "0.36 m"
+    ],
+    "answer": 2,
+    "explanation": "For the nth harmonic, L=nλ/2, hence λ=2L/n=0.72 m.",
+    "difficulty": {
+      "authorEstimate": 0.7969999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Physics-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xph-3",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Thermal",
+    "prompt": "A 600 W heater, 75% efficient, heats a 2 kg block of specific heat capacity 400 J kg⁻¹ K⁻¹ for 10 s. Neglect losses other than the stated inefficiency. What is the temperature rise?",
+    "options": [
+      "11.25 K",
+      "5.625 K",
+      "7.5 K",
+      "1.875 K"
+    ],
+    "answer": 1,
+    "explanation": "Useful energy=600×0.75×10; dividing by mc gives ΔT=5.625 K.",
+    "difficulty": {
+      "authorEstimate": 0.8009999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Physics-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xph-4",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Nuclear",
+    "prompt": "A sample has half-life 5 hours. After 15 hours, what percentage of the original undecayed nuclei remains?",
+    "options": [
+      "12.5%",
+      "87.5%",
+      "33.3333%",
+      "16.6667%"
+    ],
+    "answer": 0,
+    "explanation": "3 half-lives pass, so the remaining fraction is (1/2)^3=12.5%.",
+    "difficulty": {
+      "authorEstimate": 0.7889999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Physics-4",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "vis-ph",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Electricity",
+    "prompt": "Each resistor is 6 Ω. What is the resistance between A and B?<span class=\"question-figure\"><svg viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Six ohm resistor in series with two parallel six ohm resistors\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"12\" y=\"115\">A</text><path d=\"M30 110h35l12-18 22 36 22-36 22 36 12-18h35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M190 110v-55h35l12-18 22 36 22-36 22 36 12-18h35v55M190 110h35l12-18 22 36 22-36 22 36 12-18h35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><text x=\"92\" y=\"80\">6Ω</text><text x=\"257\" y=\"28\">6Ω</text><text x=\"257\" y=\"150\">6Ω</text><text x=\"385\" y=\"115\">B</text></svg></span>",
+    "options": [
+      "4 Ω",
+      "6 Ω",
+      "9 Ω",
+      "12 Ω"
+    ],
+    "answer": 2,
+    "explanation": "The parallel pair is 3 Ω; in series with 6 Ω this gives 9 Ω.",
+    "difficulty": {
+      "authorEstimate": 0.857,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "visual-ESAT-Physics-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "epha",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "An object starts from rest and accelerates uniformly at 3 m s⁻². How far does it travel in 4 s?",
+    "options": [
+      "6 m",
+      "12 m",
+      "24 m",
+      "48 m"
+    ],
+    "answer": 2,
+    "explanation": "s=ut+½at²=½×3×4²=24 m.",
+    "family": "epha",
+    "difficulty": {
+      "authorEstimate": 0.559,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephb",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Electricity",
+    "prompt": "Two resistors of 6 Ω and 3 Ω are connected in parallel. What is their combined resistance?",
+    "options": [
+      "1 Ω",
+      "2 Ω",
+      "3 Ω",
+      "9 Ω"
+    ],
+    "answer": 1,
+    "explanation": "1/R=1/6+1/3=1/2, so R=2 Ω.",
+    "family": "ephb",
+    "difficulty": {
+      "authorEstimate": 0.5630000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephc",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Waves",
+    "prompt": "A wave has frequency 50 Hz and wavelength 0.80 m. What is its speed?",
+    "options": [
+      "40 m s⁻¹",
+      "62.5 m s⁻¹",
+      "250 m s⁻¹",
+      "400 m s⁻¹"
+    ],
+    "answer": 0,
+    "explanation": "v=fλ=50×0.80=40 m s⁻¹.",
+    "family": "ephc",
+    "difficulty": {
+      "authorEstimate": 0.5670000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephd",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Energy",
+    "prompt": "A 2.0 kg mass is raised by 5.0 m. Taking g=10 N kg⁻¹, what is its gain in gravitational potential energy?",
+    "options": [
+      "20 J",
+      "25 J",
+      "50 J",
+      "100 J"
+    ],
+    "answer": 3,
+    "explanation": "ΔE=mgh=2×10×5=100 J.",
+    "family": "ephd",
+    "difficulty": {
+      "authorEstimate": 0.5710000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephe",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "A car decelerates uniformly from 20 m s⁻¹ to rest in 5 s. What is the magnitude of its deceleration?",
+    "options": [
+      "2 m s⁻²",
+      "4 m s⁻²",
+      "5 m s⁻²",
+      "10 m s⁻²"
+    ],
+    "answer": 1,
+    "explanation": "a=(v−u)/t=(0−20)/5=−4 m s⁻², so the magnitude is 4 m s⁻².",
+    "family": "ephe",
+    "difficulty": {
+      "authorEstimate": 0.5750000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephf",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "A ball is dropped from rest and falls freely for 3 s. Taking g=10 m s⁻², what is its speed at the end of the fall?",
+    "options": [
+      "30 m s⁻¹",
+      "15 m s⁻¹",
+      "45 m s⁻¹",
+      "90 m s⁻¹"
+    ],
+    "answer": 0,
+    "explanation": "v=gt=10×3=30 m s⁻¹.",
+    "family": "ephf",
+    "difficulty": {
+      "authorEstimate": 0.5790000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephg",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "A 5 kg object is pushed with a force of 20 N while a friction force of 5 N opposes it. What is its acceleration?",
+    "options": [
+      "1 m s⁻²",
+      "3 m s⁻²",
+      "4 m s⁻²",
+      "5 m s⁻²"
+    ],
+    "answer": 1,
+    "explanation": "The resultant force is 20−5=15 N, so a=F/m=15/5=3 m s⁻².",
+    "family": "ephg",
+    "difficulty": {
+      "authorEstimate": 0.5830000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephh",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "A ball is launched horizontally at 20 m s⁻¹ from a height of 45 m. Taking g=10 m s⁻², how long does it take to reach the ground?",
+    "options": [
+      "2 s",
+      "3 s",
+      "4.5 s",
+      "9 s"
+    ],
+    "answer": 1,
+    "explanation": "Vertical motion gives h=½gt², so t=√(2×45/10)=3 s; the horizontal speed does not affect this.",
+    "family": "ephh",
+    "difficulty": {
+      "authorEstimate": 0.523,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephi",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "Two forces of 6 N and 8 N act at right angles on an object. What is the magnitude of the resultant force?",
+    "options": [
+      "2 N",
+      "10 N",
+      "14 N",
+      "48 N"
+    ],
+    "answer": 1,
+    "explanation": "For perpendicular forces the resultant is √(6²+8²)=10 N.",
+    "family": "ephi",
+    "difficulty": {
+      "authorEstimate": 0.527,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephj",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Mechanics",
+    "prompt": "A 1200 kg car travels around a circular bend of radius 40 m at 10 m s⁻¹. What is the centripetal force required?",
+    "options": [
+      "300 N",
+      "1200 N",
+      "3000 N",
+      "12000 N"
+    ],
+    "answer": 2,
+    "explanation": "F=mv²/r=1200×100/40=3000 N.",
+    "family": "ephj",
+    "difficulty": {
+      "authorEstimate": 0.531,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephk",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Electricity",
+    "prompt": "A 12 V battery drives a current of 2 A through a resistor. What power is dissipated?",
+    "options": [
+      "6 W",
+      "12 W",
+      "24 W",
+      "144 W"
+    ],
+    "answer": 2,
+    "explanation": "P=VI=12×2=24 W.",
+    "family": "ephk",
+    "difficulty": {
+      "authorEstimate": 0.535,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephl",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Electricity",
+    "prompt": "Three resistors of 6 Ω each are connected in parallel. What is their combined resistance?",
+    "options": [
+      "2 Ω",
+      "3 Ω",
+      "6 Ω",
+      "18 Ω"
+    ],
+    "answer": 0,
+    "explanation": "1/R=3×(1/6)=1/2, so R=2 Ω.",
+    "family": "ephl",
+    "difficulty": {
+      "authorEstimate": 0.539,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephm",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Electricity",
+    "prompt": "A charge of 30 C flows past a point in 5 s. What is the current?",
+    "options": [
+      "0.17 A",
+      "5 A",
+      "6 A",
+      "150 A"
+    ],
+    "answer": 2,
+    "explanation": "I=Q/t=30/5=6 A.",
+    "family": "ephm",
+    "difficulty": {
+      "authorEstimate": 0.543,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephn",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Electricity",
+    "prompt": "A 60 W lamp is switched on for 5 minutes. How much energy does it transfer?",
+    "options": [
+      "300 J",
+      "3000 J",
+      "30000 J",
+      "18000 J"
+    ],
+    "answer": 3,
+    "explanation": "E=Pt=60×300=18000 J.",
+    "family": "ephn",
+    "difficulty": {
+      "authorEstimate": 0.547,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "epho",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Waves",
+    "prompt": "A wave of frequency 200 Hz travels at 340 m s⁻¹. What is its wavelength?",
+    "options": [
+      "0.59 m",
+      "1.7 m",
+      "340 m",
+      "68000 m"
+    ],
+    "answer": 1,
+    "explanation": "λ=v/f=340/200=1.7 m.",
+    "family": "epho",
+    "difficulty": {
+      "authorEstimate": 0.551,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephp",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Waves",
+    "prompt": "When light passes from air into glass and slows down, what happens to its frequency?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It becomes zero",
+      "It stays the same"
+    ],
+    "answer": 3,
+    "explanation": "The speed and wavelength change, but the frequency is set by the source and stays the same.",
+    "family": "ephp",
+    "difficulty": {
+      "authorEstimate": 0.518,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephq",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Waves",
+    "prompt": "Two waves of amplitude 3 cm arrive in phase at a point. What is the amplitude of the resultant wave?",
+    "options": [
+      "0 cm",
+      "3 cm",
+      "9 cm",
+      "6 cm"
+    ],
+    "answer": 3,
+    "explanation": "In-phase waves superpose constructively, so the amplitudes add to 6 cm.",
+    "family": "ephq",
+    "difficulty": {
+      "authorEstimate": 0.522,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephr",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Energy",
+    "prompt": "What is the kinetic energy of a 1500 kg car travelling at 20 m s⁻¹?",
+    "options": [
+      "15000 J",
+      "30000 J",
+      "300000 J",
+      "600000 J"
+    ],
+    "answer": 2,
+    "explanation": "Eₖ=½mv²=½×1500×20²=300000 J.",
+    "family": "ephr",
+    "difficulty": {
+      "authorEstimate": 0.526,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephs",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Energy",
+    "prompt": "A 60 kg person climbs a 5 m staircase in 10 s. Taking g=10 N kg⁻¹, what is their average power output?",
+    "options": [
+      "300 W",
+      "30 W",
+      "3000 W",
+      "30000 W"
+    ],
+    "answer": 0,
+    "explanation": "Work done is mgh=60×10×5=3000 J, so power is 3000/10=300 W.",
+    "family": "ephs",
+    "difficulty": {
+      "authorEstimate": 0.53,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "epht",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Energy",
+    "prompt": "A spring of stiffness 200 N m⁻¹ is compressed by 0.1 m. How much energy is stored?",
+    "options": [
+      "0.1 J",
+      "1 J",
+      "2 J",
+      "20 J"
+    ],
+    "answer": 1,
+    "explanation": "E=½kx²=½×200×0.1²=1 J.",
+    "family": "epht",
+    "difficulty": {
+      "authorEstimate": 0.534,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephu",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Thermal",
+    "prompt": "A 2 kg block of specific heat capacity 900 J kg⁻¹ K⁻¹ is heated by 10 K. How much energy is transferred?",
+    "options": [
+      "1800 J",
+      "9000 J",
+      "18000 J",
+      "180000 J"
+    ],
+    "answer": 2,
+    "explanation": "E=mcΔT=2×900×10=18000 J.",
+    "family": "ephu",
+    "difficulty": {
+      "authorEstimate": 0.538,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephv",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Thermal",
+    "prompt": "By which process is thermal energy mainly transferred through a solid metal bar?",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Evaporation"
+    ],
+    "answer": 0,
+    "explanation": "In a solid, vibrating atoms and free electrons transfer energy by conduction; convection needs a fluid.",
+    "family": "ephv",
+    "difficulty": {
+      "authorEstimate": 0.542,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephw",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Thermal",
+    "prompt": "An ideal gas is kept at constant temperature while its volume is halved. What happens to its pressure?",
+    "options": [
+      "It halves",
+      "It stays the same",
+      "It doubles",
+      "It quadruples"
+    ],
+    "answer": 2,
+    "explanation": "At constant temperature pV is constant, so halving the volume doubles the pressure.",
+    "family": "ephw",
+    "difficulty": {
+      "authorEstimate": 0.546,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephx",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Nuclear",
+    "prompt": "What are the constituents of an alpha particle?",
+    "options": [
+      "2 protons and 2 neutrons",
+      "2 protons and 2 electrons",
+      "1 proton and 1 neutron",
+      "4 protons"
+    ],
+    "answer": 0,
+    "explanation": "An alpha particle is a helium nucleus: two protons and two neutrons.",
+    "family": "ephx",
+    "difficulty": {
+      "authorEstimate": 0.5870000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephy",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Nuclear",
+    "prompt": "When a nucleus emits an alpha particle, by how much does its mass number decrease?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "An alpha particle carries away two protons and two neutrons, reducing the mass number by 4.",
+    "family": "ephy",
+    "difficulty": {
+      "authorEstimate": 0.49000000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephz",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Materials",
+    "prompt": "A wire of length 2 m and cross-sectional area 1×10⁻⁶ m² has a resistance of 4 Ω. What is the resistivity of the material?",
+    "options": [
+      "2 × 10⁻⁶ Ω m",
+      "2 × 10⁻⁷ Ω m",
+      "8 × 10⁻⁶ Ω m",
+      "2 × 10⁻⁵ Ω m"
+    ],
+    "answer": 0,
+    "explanation": "Rearranging R=ρL/A gives ρ=RA/L=4×10⁻⁶/2=2×10⁻⁶ Ω m.",
+    "family": "ephz",
+    "difficulty": {
+      "authorEstimate": 0.49400000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "ephaa",
+    "exam": "ESAT",
+    "module": "Physics",
+    "topic": "Materials",
+    "prompt": "A force of 100 N acts over an area of 0.02 m². What is the stress?",
+    "options": [
+      "2 Pa",
+      "50 Pa",
+      "500 Pa",
+      "5000 Pa"
+    ],
+    "answer": 3,
+    "explanation": "Stress=force/area=100/0.02=5000 Pa.",
+    "family": "ephaa",
+    "difficulty": {
+      "authorEstimate": 0.49800000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  }
+]

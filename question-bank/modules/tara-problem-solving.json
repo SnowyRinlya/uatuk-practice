@@ -1,0 +1,704 @@
+[
+  {
+    "id": "xps-0",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Rates",
+    "prompt": "4 identical machines, each producing 6 units per hour, complete an order in 3 hours. After one machine fails before work begins, how long will the same order take?",
+    "options": [
+      "4 hours",
+      "18 hours",
+      "2.4 hours",
+      "Cannot be determined from the information given"
+    ],
+    "answer": 0,
+    "explanation": "Order size=4×6×3=72. New hourly output=18, so time=4 hours.",
+    "difficulty": {
+      "authorEstimate": 0.844,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Problem Solving-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xps-1",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Sets",
+    "prompt": "Of 90 applicants, 50 passed test A, 45 passed test B and 25 passed both. How many passed neither?",
+    "options": [
+      "40",
+      "45",
+      "5",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "Passed at least one=50+45−25=70; subtracting from 90 gives 20.",
+    "difficulty": {
+      "authorEstimate": 0.84,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Problem Solving-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xps-2",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Percentages",
+    "prompt": "An item priced at £120 is reduced by 30%, then the reduced price is increased by 25%. What is the final price?",
+    "options": [
+      "£114",
+      "£84",
+      "£105",
+      "£120"
+    ],
+    "answer": 2,
+    "explanation": "Successive percentage changes multiply: 120×0.7×1.25=105.",
+    "difficulty": {
+      "authorEstimate": 0.852,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Problem Solving-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xps-3",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Ordering",
+    "prompt": "Five tasks A–E occupy positions 1–5. B is immediately after C; D is earlier than A; E is last. If C is second and D is first, who is fourth?",
+    "options": [
+      "E",
+      "A",
+      "B",
+      "D"
+    ],
+    "answer": 1,
+    "explanation": "Placing the fixed and adjacent items, then applying the remaining inequalities, forces A in the requested position.",
+    "difficulty": {
+      "authorEstimate": 0.848,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-TARA-Problem Solving-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "vis-ps",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Spatial reasoning",
+    "prompt": "A robot starts at S facing north. It moves 2 squares, turns right, moves 3, turns right, then moves 1. Where does it finish?<span class=\"question-figure\"><svg viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Square route grid\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"grid\" width=\"40\" height=\"40\" patternUnits=\"userSpaceOnUse\"><path d=\"M40 0H0V40\" fill=\"none\" stroke=\"#98a2b3\"/></pattern></defs><rect x=\"90\" y=\"10\" width=\"240\" height=\"200\" fill=\"url(#grid)\" stroke=\"currentColor\"/><text x=\"100\" y=\"198\">S↑</text><text x=\"300\" y=\"198\">A</text><text x=\"300\" y=\"158\">B</text><text x=\"300\" y=\"118\">C</text><text x=\"300\" y=\"78\">D</text></svg></span>",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "The net movement is one square north and three east, which is C.",
+    "difficulty": {
+      "authorEstimate": 0.841,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "visual-TARA-Problem Solving-8",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsa",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Ordering",
+    "prompt": "Five people stand in a line. A is before B and C is before D. Which must be true?",
+    "options": [
+      "A is first",
+      "D is not first",
+      "B is last",
+      "C is before A"
+    ],
+    "answer": 1,
+    "explanation": "D cannot be first because C must appear before D.",
+    "family": "rpsa",
+    "difficulty": {
+      "authorEstimate": 0.554,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsb",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Data",
+    "prompt": "A shop reduces a £80 item by 25%, then increases the sale price by 10%. What is the final price?",
+    "options": [
+      "£60",
+      "£64",
+      "£66",
+      "£68"
+    ],
+    "answer": 2,
+    "explanation": "The sale price is £60, then 110% of £60 is £66.",
+    "family": "rpsb",
+    "difficulty": {
+      "authorEstimate": 0.558,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsc",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Spatial reasoning",
+    "prompt": "A cube has opposite face pairs (1,6), (2,5), and (3,4). Which face is opposite 5?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "The stated pair containing 5 is (2,5).",
+    "family": "rpsc",
+    "difficulty": {
+      "authorEstimate": 0.562,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsd",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Rates",
+    "prompt": "Three machines make 180 parts in 4 hours. How many parts do five machines make in 6 hours at the same rate?",
+    "options": [
+      "360",
+      "400",
+      "450",
+      "540"
+    ],
+    "answer": 2,
+    "explanation": "Each machine makes 15 parts per hour; 5×6×15=450.",
+    "family": "rpsd",
+    "difficulty": {
+      "authorEstimate": 0.534,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpse",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Data",
+    "prompt": "The price of an item rises by 20% and the new price then falls by 20%. What is the overall percentage change?",
+    "options": [
+      "−4%",
+      "0%",
+      "+4%",
+      "−2%"
+    ],
+    "answer": 0,
+    "explanation": "After both changes the price is 1.2×0.8=0.96 of the original, a fall of 4%.",
+    "family": "rpse",
+    "difficulty": {
+      "authorEstimate": 0.538,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsf",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Rates",
+    "prompt": "One tap fills a tank in 6 minutes and another fills it in 3 minutes. Working together, how long do they take?",
+    "options": [
+      "2 minutes",
+      "3 minutes",
+      "4.5 minutes",
+      "9 minutes"
+    ],
+    "answer": 0,
+    "explanation": "Their rates add: 1/6+1/3=1/2 of the tank per minute, so the tank fills in 2 minutes.",
+    "family": "rpsf",
+    "difficulty": {
+      "authorEstimate": 0.542,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsg",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Data",
+    "prompt": "The mean of five numbers is 12. One number is removed and the mean of the remaining four is 11. What was the number removed?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "The totals are 60 and 44, so the removed number is 60−44=16.",
+    "family": "rpsg",
+    "difficulty": {
+      "authorEstimate": 0.546,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsh",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Ordering",
+    "prompt": "A is taller than B. C is shorter than B. D is taller than A. Who is shortest?",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "answer": 3,
+    "explanation": "The order is D > A > B > C, so C is shortest.",
+    "family": "rpsh",
+    "difficulty": {
+      "authorEstimate": 0.5820000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsi",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Spatial reasoning",
+    "prompt": "A cube is painted on the outside and then cut into 27 smaller cubes. How many of the small cubes have exactly three painted faces?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "27"
+    ],
+    "answer": 1,
+    "explanation": "Only the eight corner cubes have three painted faces.",
+    "family": "rpsi",
+    "difficulty": {
+      "authorEstimate": 0.5860000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsj",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Constraints",
+    "prompt": "Three apples and two bananas cost £4.00. One apple and two bananas cost £2.00. What is the cost of one apple?",
+    "options": [
+      "£0.50",
+      "£0.75",
+      "£1.50",
+      "£1.00"
+    ],
+    "answer": 3,
+    "explanation": "Subtracting the second line from the first leaves two apples costing £2.00, so an apple costs £1.00.",
+    "family": "rpsj",
+    "difficulty": {
+      "authorEstimate": 0.5900000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsk",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Rates",
+    "prompt": "A car travels 240 km in 3 hours, then a further 180 km in 2 hours. What is its average speed for the whole journey?",
+    "options": [
+      "84 km/h",
+      "80 km/h",
+      "86 km/h",
+      "90 km/h"
+    ],
+    "answer": 0,
+    "explanation": "The total distance is 420 km over 5 hours, giving 84 km/h.",
+    "family": "rpsk",
+    "difficulty": {
+      "authorEstimate": 0.49300000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsl",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Data",
+    "prompt": "15% of a number is 45. What is the number?",
+    "options": [
+      "200",
+      "300",
+      "450",
+      "675"
+    ],
+    "answer": 1,
+    "explanation": "The number is 45/0.15=300.",
+    "family": "rpsl",
+    "difficulty": {
+      "authorEstimate": 0.5660000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsm",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Data",
+    "prompt": "A sum of 64 is divided in the ratio 3:5. What is the larger share?",
+    "options": [
+      "24",
+      "32",
+      "40",
+      "45"
+    ],
+    "answer": 2,
+    "explanation": "The parts are 8×3=24 and 8×5=40, so the larger share is 40.",
+    "family": "rpsm",
+    "difficulty": {
+      "authorEstimate": 0.5700000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsn",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Ordering",
+    "prompt": "In a race, A finished ahead of B, C finished ahead of A, and D finished last. Who finished first?",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "answer": 3,
+    "explanation": "The order is C > A > B, with D last, so C finished first.",
+    "family": "rpsn",
+    "difficulty": {
+      "authorEstimate": 0.5740000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpso",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Spatial reasoning",
+    "prompt": "A 4×4×4 cube is painted and then cut into unit cubes. How many unit cubes have no painted faces?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "The unpainted cubes form a 2×2×2 block inside, giving 8.",
+    "family": "rpso",
+    "difficulty": {
+      "authorEstimate": 0.5780000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsp",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Rates",
+    "prompt": "Eight workers build a wall in 12 days. Working at the same rate, how long would six workers take?",
+    "options": [
+      "9 days",
+      "14 days",
+      "16 days",
+      "18 days"
+    ],
+    "answer": 2,
+    "explanation": "The job needs 8×12=96 worker-days, and 96/6=16 days.",
+    "family": "rpsp",
+    "difficulty": {
+      "authorEstimate": 0.513,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsq",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Data",
+    "prompt": "In a class of 30 students, 18 study French, 15 study Spanish and 6 study both. How many study neither language?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "Those studying at least one number 18+15−6=27, leaving 3 who study neither.",
+    "family": "rpsq",
+    "difficulty": {
+      "authorEstimate": 0.517,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsr",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Data",
+    "prompt": "After a 30% discount an item costs £56. What was the original price?",
+    "options": [
+      "£80",
+      "£70",
+      "£84",
+      "£90"
+    ],
+    "answer": 0,
+    "explanation": "The sale price is 70% of the original, so the original is 56/0.7=£80.",
+    "family": "rpsr",
+    "difficulty": {
+      "authorEstimate": 0.521,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpss",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Constraints",
+    "prompt": "Adult tickets cost £5 and child tickets cost £3. Forty tickets are sold for £160. How many adult tickets were sold?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "answer": 1,
+    "explanation": "With a adult tickets, 5a+3(40−a)=160, so 2a=40 and a=20.",
+    "family": "rpss",
+    "difficulty": {
+      "authorEstimate": 0.525,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpst",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Ordering",
+    "prompt": "In a race, X finished two places ahead of Y, who finished fifth. In which position did X finish?",
+    "options": [
+      "1st",
+      "2nd",
+      "4th",
+      "3rd"
+    ],
+    "answer": 3,
+    "explanation": "Two places ahead of fifth is third.",
+    "family": "rpst",
+    "difficulty": {
+      "authorEstimate": 0.49700000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsu",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Spatial reasoning",
+    "prompt": "How many unit cubes will fit exactly into a rectangular box measuring 3×4×5 units?",
+    "options": [
+      "12",
+      "20",
+      "47",
+      "60"
+    ],
+    "answer": 3,
+    "explanation": "The volume is 3×4×5=60 unit cubes.",
+    "family": "rpsu",
+    "difficulty": {
+      "authorEstimate": 0.501,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "rpsv",
+    "exam": "TARA",
+    "module": "Problem Solving",
+    "topic": "Rates",
+    "prompt": "A machine produces 45 parts per hour. How many parts does it produce in 2 hours 20 minutes?",
+    "options": [
+      "105",
+      "90",
+      "110",
+      "135"
+    ],
+    "answer": 0,
+    "explanation": "The time is 7/3 hours, so the output is 45×7/3=105 parts.",
+    "family": "rpsv",
+    "difficulty": {
+      "authorEstimate": 0.505,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  }
+]

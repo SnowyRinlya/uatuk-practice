@@ -1,0 +1,860 @@
+[
+  {
+    "id": "xm1-0",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "The non-zero numbers x and y satisfy x+y=7 and xy=10. What is x²+y²?",
+    "options": [
+      "29",
+      "49",
+      "39",
+      "19"
+    ],
+    "answer": 0,
+    "explanation": "x²+y²=(x+y)²−2xy=7²−2(10)=29.",
+    "difficulty": {
+      "authorEstimate": 0.869,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 1-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm1-1",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Number",
+    "prompt": "What is the remainder when 3+3²+⋯+3^6 is divided by 9?",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "The sum is 3(3^6−1)/(3−1)=1092, whose remainder modulo 9 is 3.",
+    "difficulty": {
+      "authorEstimate": 0.7719999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 1-1",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm1-2",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Sequences",
+    "prompt": "An arithmetic sequence has first term 4, common difference 5, and 10 terms. Its 5rd term is removed. What is the mean of the remaining terms?",
+    "options": [
+      "24",
+      "241/10",
+      "241/9",
+      "53/2"
+    ],
+    "answer": 2,
+    "explanation": "The original sum is 265; the removed term is 24. The required mean is (265−24)/9=241/9.",
+    "difficulty": {
+      "authorEstimate": 0.7759999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 1-2",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm1-3",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Geometry",
+    "prompt": "A right circular cone has radius 3 and vertical height 6. Which expression is its total surface area?",
+    "options": [
+      "6π(3+√45)",
+      "3π(3+√45)",
+      "45π",
+      "3π√45"
+    ],
+    "answer": 1,
+    "explanation": "The slant height is √(3²+6²)=√45. Total area is πr²+πrl=3π(3+√45).",
+    "difficulty": {
+      "authorEstimate": 0.7799999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 1-3",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "xm1-4",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Functions",
+    "prompt": "How many points of intersection are there between y=3x+3 and x²+y²=25?",
+    "options": [
+      "Two",
+      "One",
+      "None",
+      "Infinitely many"
+    ],
+    "answer": 0,
+    "explanation": "Substitution gives a quadratic with discriminant proportional to 241. Since this is positive, there are two real intersection points.",
+    "difficulty": {
+      "authorEstimate": 0.7839999999999999,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "core-ESAT-Mathematics 1-4",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "vis-m1",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Geometry",
+    "prompt": "The circle has centre O. OM is perpendicular to chord AB, OM=4 and OA=5. What is AB?<span class=\"question-figure\"><svg viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Circle with chord AB and perpendicular OM\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"210\" cy=\"105\" r=\"78\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"150\" y1=\"155\" x2=\"270\" y2=\"155\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"210\" y1=\"105\" x2=\"210\" y2=\"155\" stroke=\"#005eb8\" stroke-width=\"3\"/><text x=\"198\" y=\"98\">O</text><text x=\"137\" y=\"176\">A</text><text x=\"274\" y=\"176\">B</text><text x=\"214\" y=\"176\">M</text><text x=\"216\" y=\"137\">4</text><text x=\"174\" y=\"126\">5</text></svg></span>",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "The perpendicular bisects the chord. AM=√(5²−4²)=3, hence AB=6.",
+    "difficulty": {
+      "authorEstimate": 0.835,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "family": "visual-ESAT-Mathematics 1-0",
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1a",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "If x + 1/x = 3, what is x² + 1/x²?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "Squaring gives x² + 2 + 1/x² = 9, so the value is 7.",
+    "family": "em1a",
+    "difficulty": {
+      "authorEstimate": 0.544,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1b",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "The roots of x² − 7x + k = 0 differ by 1. What is k?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "Write the roots as r and r+1. Their sum is 7, so they are 3 and 4; k is their product, 12.",
+    "family": "em1b",
+    "difficulty": {
+      "authorEstimate": 0.532,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1c",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Functions",
+    "prompt": "For f(x)=x³−3x, at which x-values is the gradient zero?",
+    "options": [
+      "−1 and 1",
+      "0 and 3",
+      "−3 and 3",
+      "0 only"
+    ],
+    "answer": 0,
+    "explanation": "f′(x)=3x²−3. Setting this equal to zero gives x=±1.",
+    "family": "em1c",
+    "difficulty": {
+      "authorEstimate": 0.536,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1d",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Geometry",
+    "prompt": "A circle has equation x²+y²−6x+4y−12=0. What is its radius?",
+    "options": [
+      "4",
+      "5",
+      "√29",
+      "29"
+    ],
+    "answer": 1,
+    "explanation": "Completing the square gives (x−3)²+(y+2)²=25.",
+    "family": "em1d",
+    "difficulty": {
+      "authorEstimate": 0.556,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1e",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "If x² − y² = 21 and x − y = 3, what is x + y?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "x²−y²=(x−y)(x+y), so 21=3(x+y) and x+y=7.",
+    "family": "em1e",
+    "difficulty": {
+      "authorEstimate": 0.56,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1f",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "Two numbers have sum 12 and the sum of their squares is 80. What is their product?",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "36"
+    ],
+    "answer": 2,
+    "explanation": "(a+b)²=144=a²+b²+2ab=80+2ab, so ab=32.",
+    "family": "em1f",
+    "difficulty": {
+      "authorEstimate": 0.548,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1g",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "Solve 2^(x+1) = 8^(x−1).",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Write both sides as powers of 2: x+1=3x−3, so x=2.",
+    "family": "em1g",
+    "difficulty": {
+      "authorEstimate": 0.552,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1h",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "The equation 3x² + kx + 12 = 0 has equal roots. What is the positive value of k?",
+    "options": [
+      "6",
+      "8",
+      "36",
+      "12"
+    ],
+    "answer": 3,
+    "explanation": "Equal roots require k²−4×3×12=0, so k²=144 and the positive value is 12.",
+    "family": "em1h",
+    "difficulty": {
+      "authorEstimate": 0.5720000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1i",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Algebra",
+    "prompt": "For which values of k does x² + kx + 9 = 0 have two distinct real roots?",
+    "options": [
+      "k > 6 only",
+      "k < −6 only",
+      "k > 6 or k < −6",
+      "−6 < k < 6"
+    ],
+    "answer": 2,
+    "explanation": "Two distinct real roots need k²−36>0, so k>6 or k<−6.",
+    "family": "em1i",
+    "difficulty": {
+      "authorEstimate": 0.5760000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1j",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Functions",
+    "prompt": "Given f(x)=2x+3 and g(x)=x², what is f(g(−2))?",
+    "options": [
+      "11",
+      "7",
+      "19",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "g(−2)=4, then f(4)=2×4+3=11.",
+    "family": "em1j",
+    "difficulty": {
+      "authorEstimate": 0.5640000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1k",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Functions",
+    "prompt": "What is the minimum value of f(x)=x²−4x+7?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "Completing the square gives (x−2)²+3, so the minimum is 3.",
+    "family": "em1k",
+    "difficulty": {
+      "authorEstimate": 0.5680000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1l",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Functions",
+    "prompt": "For f(x)=3x−1, what is f⁻¹(8)?",
+    "options": [
+      "3",
+      "2",
+      "7",
+      "23"
+    ],
+    "answer": 0,
+    "explanation": "Solve 3x−1=8, giving x=3.",
+    "family": "em1l",
+    "difficulty": {
+      "authorEstimate": 0.5880000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1m",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Geometry",
+    "prompt": "A right-angled triangle has legs of length 5 and 12. What is the radius of its circumcircle?",
+    "options": [
+      "6",
+      "7.5",
+      "13",
+      "6.5"
+    ],
+    "answer": 3,
+    "explanation": "The hypotenuse is 13, and the circumradius of a right-angled triangle is half the hypotenuse.",
+    "family": "em1m",
+    "difficulty": {
+      "authorEstimate": 0.49100000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1n",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Geometry",
+    "prompt": "A sector has radius 6 cm and angle 60°. What is its area?",
+    "options": [
+      "3π cm²",
+      "6π cm²",
+      "12π cm²",
+      "36π cm²"
+    ],
+    "answer": 1,
+    "explanation": "Area=(60/360)×π×6²=6π cm².",
+    "family": "em1n",
+    "difficulty": {
+      "authorEstimate": 0.5800000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1o",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Geometry",
+    "prompt": "What is the gradient of a line perpendicular to y = −½x + 4?",
+    "options": [
+      "−2",
+      "−1/2",
+      "1/2",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "The given gradient is −½, and perpendicular gradients multiply to −1, so the answer is 2.",
+    "family": "em1o",
+    "difficulty": {
+      "authorEstimate": 0.5840000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1p",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Geometry",
+    "prompt": "A sphere has volume 36π. What is its radius?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "(4/3)πr³=36π gives r³=27, so r=3.",
+    "family": "em1p",
+    "difficulty": {
+      "authorEstimate": 0.5770000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1q",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Number",
+    "prompt": "What is the largest prime factor of 315?",
+    "options": [
+      "3",
+      "5",
+      "9",
+      "7"
+    ],
+    "answer": 3,
+    "explanation": "315=3²×5×7, so the largest prime factor is 7.",
+    "family": "em1q",
+    "difficulty": {
+      "authorEstimate": 0.5810000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1r",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Number",
+    "prompt": "What is the remainder when 2¹⁰ is divided by 7?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "2¹⁰=1024=7×146+2, so the remainder is 2.",
+    "family": "em1r",
+    "difficulty": {
+      "authorEstimate": 0.5690000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1s",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Number",
+    "prompt": "How many positive integers less than 100 are divisible by both 3 and 4?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "Such numbers are multiples of 12: 12, 24, …, 96, giving eight in total.",
+    "family": "em1s",
+    "difficulty": {
+      "authorEstimate": 0.5730000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1t",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Number",
+    "prompt": "What is the highest common factor of 84 and 126?",
+    "options": [
+      "14",
+      "21",
+      "42",
+      "84"
+    ],
+    "answer": 2,
+    "explanation": "84=2²×3×7 and 126=2×3²×7, so the HCF is 2×3×7=42.",
+    "family": "em1t",
+    "difficulty": {
+      "authorEstimate": 0.49200000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1u",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Sequences",
+    "prompt": "An arithmetic sequence has third term 11 and seventh term 27. What is its common difference?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "The difference between the terms is 16 over four steps, so d=4.",
+    "family": "em1u",
+    "difficulty": {
+      "authorEstimate": 0.49600000000000005,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1v",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Sequences",
+    "prompt": "What is the sum of the first 20 positive odd numbers?",
+    "options": [
+      "400",
+      "380",
+      "420",
+      "441"
+    ],
+    "answer": 0,
+    "explanation": "The sum of the first n odd numbers is n², so the answer is 400.",
+    "family": "em1v",
+    "difficulty": {
+      "authorEstimate": 0.5850000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1w",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Sequences",
+    "prompt": "A sequence is defined by u₁=2 and uₙ₊₁=3uₙ−1. What is u₄?",
+    "options": [
+      "14",
+      "20",
+      "41",
+      "42"
+    ],
+    "answer": 2,
+    "explanation": "u₂=5, u₃=14 and u₄=3×14−1=41.",
+    "family": "em1w",
+    "difficulty": {
+      "authorEstimate": 0.5890000000000001,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1x",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Trigonometry",
+    "prompt": "In a right-angled triangle, sin θ = 3/5 for 0°<θ<90°. What is cos θ?",
+    "options": [
+      "3/4",
+      "4/5",
+      "5/4",
+      "5/3"
+    ],
+    "answer": 1,
+    "explanation": "Using sin²θ+cos²θ=1 gives cos²θ=1−9/25=16/25, so cos θ=4/5.",
+    "family": "em1x",
+    "difficulty": {
+      "authorEstimate": 0.508,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1y",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Trigonometry",
+    "prompt": "What is the exact value of tan 60°?",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "√3"
+    ],
+    "answer": 3,
+    "explanation": "tan 60° = sin 60°/cos 60° = (√3/2)/(1/2) = √3.",
+    "family": "em1y",
+    "difficulty": {
+      "authorEstimate": 0.512,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1z",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Probability",
+    "prompt": "A bag holds 4 red and 6 blue balls. Two are drawn without replacement. What is the probability that both are red?",
+    "options": [
+      "2/15",
+      "4/25",
+      "1/5",
+      "2/5"
+    ],
+    "answer": 0,
+    "explanation": "(4/10)×(3/9)=12/90=2/15.",
+    "family": "em1z",
+    "difficulty": {
+      "authorEstimate": 0.5,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  },
+  {
+    "id": "em1aa",
+    "exam": "ESAT",
+    "module": "Mathematics 1",
+    "topic": "Statistics",
+    "prompt": "The mean of five numbers is 8. A sixth number is added and the mean becomes 9. What is the sixth number?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": 3,
+    "explanation": "The original total is 40 and the new total is 54, so the sixth number is 14.",
+    "family": "em1aa",
+    "difficulty": {
+      "authorEstimate": 0.552,
+      "uncertainty": 0.06,
+      "calibrated": null,
+      "sampleSize": 0
+    },
+    "metadata": {
+      "style": "official-like",
+      "version": 1
+    }
+  }
+]
